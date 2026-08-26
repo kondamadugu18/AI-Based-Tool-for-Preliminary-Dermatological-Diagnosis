@@ -212,7 +212,7 @@ class DermatologyModelEngine:
             json.dump(metadata, f, indent=2)
 
     def load_or_train(self) -> "DermatologyModelEngine":
-        """Loads saved model artifacts from disk, or trains from scratch if not found."""
+        """Loads saved model artifacts from disk, or trains from scratch if not found or corrupted."""
         if MODEL_FILE_PATH.exists() and PREPROCESSOR_FILE_PATH.exists() and METADATA_FILE_PATH.exists():
             try:
                 self.best_model = joblib.load(MODEL_FILE_PATH)
@@ -223,8 +223,19 @@ class DermatologyModelEngine:
                     self.classes_ = metadata.get("classes", [])
                     self.model_metrics = metadata.get("model_metrics", {})
                 self.all_models[self.best_model_name] = self.best_model
+
+                # Validate loaded model with dummy input to catch cross-version unpickling issues
+                dummy_df = pd.DataFrame([{
+                    "age": 30, "gender": "Female", "fitzpatrick_skin_type": "III", "body_site": "Trunk",
+                    "itching": 2, "redness": 2, "scaling_peeling": 1, "burning_pain": 0, "bleeding_oozing": 0,
+                    "lesion_size_mm": 5.0, "elevation": "Flat", "duration_weeks": 4, "evolution_change": "Stable",
+                    "sun_exposure": "Moderate", "family_history_skin_disease": 0
+                }])
+                X_test = self.preprocessor.transform_single_patient(dummy_df.iloc[0].to_dict())
+                self.best_model.predict_proba(X_test)
                 return self
             except Exception:
+                # If unpickling across different scikit-learn versions fails, retrain fresh
                 pass
 
         self.train_and_evaluate_all()
@@ -249,7 +260,14 @@ class DermatologyModelEngine:
             model_to_use = self.best_model
 
         X_vec = self.preprocessor.transform_single_patient(patient_dict)
-        probabilities = model_to_use.predict_proba(X_vec)[0]
+        try:
+            probabilities = model_to_use.predict_proba(X_vec)[0]
+        except Exception:
+            # Automatic fallback: retrain in memory on active environment and retry
+            self.train_and_evaluate_all()
+            model_to_use = self.best_model
+            X_vec = self.preprocessor.transform_single_patient(patient_dict)
+            probabilities = model_to_use.predict_proba(X_vec)[0]
 
         top_indices = np.argsort(probabilities)[::-1]
         top_prediction = self.classes_[top_indices[0]]
