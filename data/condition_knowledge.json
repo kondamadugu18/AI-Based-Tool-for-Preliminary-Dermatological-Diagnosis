@@ -1,0 +1,228 @@
+{
+  "Eczema": {
+    "name": "Eczema (Atopic Dermatitis)",
+    "category": "Inflammatory",
+    "urgency": "Routine Care",
+    "urgency_badge": "🟢 Low Urgency / Routine Care",
+    "description": "A chronic inflammatory skin condition characterized by dry, pruritic (itchy), and erythematous patches, often occurring in flexural areas (inner elbows, behind knees).",
+    "common_symptoms": [
+      "Intense pruritus (itching), particularly at night",
+      "Erythematous, dry, cracked, or scaly patches",
+      "Excoriations from scratching, leading to lichenification",
+      "Occasional clear oozing or crusting during acute flares"
+    ],
+    "risk_factors": [
+      "Personal or family history of atopy (asthma, allergic rhinitis)",
+      "Skin barrier dysfunction (filaggrin gene mutations)",
+      "Environmental triggers: soaps, detergents, low humidity, stress"
+    ],
+    "management_tips": [
+      "Frequent application of thick emollients (ointments or heavy creams)",
+      "Short lukewarm baths with soap-free cleansers",
+      "Short-term topical corticosteroids or calcineurin inhibitors for flares",
+      "Avoid known allergens, wool fabrics, and harsh detergents"
+    ],
+    "red_flags": [
+      "Signs of secondary bacterial infection (honey-colored crusting, pustules, spreading redness)",
+      "Severe pain or systemic fever",
+      "Widespread eczema herpeticum (multiple punched-out vesicles)"
+    ]
+  },
+  "Psoriasis": {
+    "name": "Psoriasis (Plaque Psoriasis)",
+    "category": "Autoimmune / Inflammatory",
+    "urgency": "Routine Specialist",
+    "urgency_badge": "🟡 Moderate Urgency / Dermatologist Consult",
+    "description": "An immune-mediated chronic inflammatory skin disease causing hyperproliferation of keratinocytes, presenting as sharply demarcated erythematous plaques with silvery-white scales.",
+    "common_symptoms": [
+      "Well-demarcated raised plaques with thick, micaceous (silvery) scales",
+      "Auspitz sign (pinpoint bleeding when scales are removed)",
+      "Common on extensor surfaces (knees, elbows), scalp, and lumbosacral region",
+      "Nail pitting, onycholysis, or subungual hyperkeratosis"
+    ],
+    "risk_factors": [
+      "Genetic predisposition (HLA-Cw6 association)",
+      "Triggers: physical trauma (Koebner phenomenon), streptococcal infection, stress",
+      "Smoking, obesity, and certain medications (beta-blockers, lithium)"
+    ],
+    "management_tips": [
+      "Topical therapies: high-potency corticosteroids combined with vitamin D analogues (calcipotriol)",
+      "Topical retinoids and keratolytic agents (salicylic acid)",
+      "Phototherapy (narrowband UVB) for moderate-to-severe disease",
+      "Systemic agents or biologics (anti-TNF, anti-IL-17, anti-IL-23) for refractory cases"
+    ],
+    "red_flags": [
+      "Psoriatic arthritis symptoms (joint stiffness, swelling, dactylitis)",
+      "Erythrodermic psoriasis (>90% body surface area involvement with fever)",
+      "Generalized pustular psoriasis requiring urgent emergency care"
+    ]
+  },
+  "Melanoma": {
+    "name": "Melanoma (Malignant Melanoma)",
+    "category": "Malignant Neoplasm",
+    "urgency": "Immediate Urgent",
+    "urgency_badge": "🔴 High Urgency / Immediate Biopsy & Oncology Referral",
+    "description": "A high-grade malignant cutaneous neoplasm arising from melanocytes. It is the deadliest form of skin cancer, characterized by rapid growth, asymmetry, irregular borders, and variable pigmentation.",
+    "common_symptoms": [
+      "Asymmetry: one half does not match the other",
+      "Border irregularity: notched, scalloped, or poorly defined edges",
+      "Color variation: multiple shades of brown, black, blue, red, or white",
+      "Diameter: usually >6 mm, though can be smaller in early stages",
+      "Evolving: lesion changing in size, shape, color, or developing bleeding/elevation"
+    ],
+    "risk_factors": [
+      "Excessive cumulative or intermittent UV exposure and history of sunburns",
+      "Fitzpatrick skin phototypes I and II (fair skin, freckling, light eyes)",
+      "High total nevus count (>50 moles) or presence of atypical/dysplastic nevi",
+      "Personal or family history of melanoma (CDKN2A mutations)"
+    ],
+    "management_tips": [
+      "Immediate urgent surgical excisional biopsy with appropriate clinical margins",
+      "Histopathologic staging (Breslow thickness, ulceration status, mitotic rate)",
+      "Sentinel lymph node biopsy for intermediate/thick lesions",
+      "Systemic targeted therapy (BRAF/MEK inhibitors) or immunotherapy (PD-1/CTLA-4 blockers)"
+    ],
+    "red_flags": [
+      "Rapid growth, ulceration, spontaneous bleeding, or new satellite pigmentation",
+      "Palpable regional lymphadenopathy",
+      "Any 'ugly duckling' mole that looks markedly distinct from other lesions"
+    ]
+  },
+  "Basal Cell Carcinoma": {
+    "name": "Basal Cell Carcinoma (BCC)",
+    "category": "Malignant Neoplasm (Non-Melanoma)",
+    "urgency": "Specialist Consult",
+    "urgency_badge": "🟡 Moderate-to-High Urgency / Dermatology Excision",
+    "description": "The most common cutaneous malignancy arising from the basal layer of the epidermis. Rarely metastasizes but can cause significant local tissue destruction if left untreated.",
+    "common_symptoms": [
+      "Pearly, translucent nodule with rolled or beaded borders",
+      "Prominent arborizing telangiectasias (spider veins) on the lesion surface",
+      "Central ulceration ('rodent ulcer') with easy bleeding upon minor trauma",
+      "Non-healing sore that crusts, bleeds, and recurs in sun-exposed areas"
+    ],
+    "risk_factors": [
+      "Chronic, long-term ultraviolet radiation exposure",
+      "Light skin complexion (Fitzpatrick I-III)",
+      "Advanced age, immunosuppression, or history of radiation therapy"
+    ],
+    "management_tips": [
+      "Standard surgical excision with margin verification",
+      "Mohs micrographic surgery for cosmetically sensitive areas (face, nose, eyelids)",
+      "Topical imiquimod, 5-fluorouracil, or cryotherapy for superficial variants",
+      "Hedgehog pathway inhibitors (vismodegib) for locally advanced cases"
+    ],
+    "red_flags": [
+      "Rapid enlargement near vital anatomical structures (periorbital, perinasal)",
+      "Recurrent bleeding and perineural invasion symptoms (pain, numbness)"
+    ]
+  },
+  "Seborrheic Keratosis": {
+    "name": "Seborrheic Keratosis",
+    "category": "Benign Neoplasm",
+    "urgency": "Routine Observation",
+    "urgency_badge": "🟢 Low Urgency / Benign Lesion",
+    "description": "A very common, harmless benign epithelial tumor of the skin, frequently presenting as a 'stuck-on', warty or greasy plaque in older adults.",
+    "common_symptoms": [
+      "Well-circumscribed, 'stuck-on' appearance as if pressed onto the skin",
+      "Verrucous (warty), granular, or greasy surface texture",
+      "Color ranges from tan, flesh-colored, yellowish to dark brown or black",
+      "Horn pseudocysts visible on dermoscopy"
+    ],
+    "risk_factors": [
+      "Aging (common over 50 years)",
+      "Genetic predisposition",
+      "Cumulative sun exposure"
+    ],
+    "management_tips": [
+      "Reassurance of benign nature; no mandatory medical treatment required",
+      "Cryosurgery (liquid nitrogen) or curettage if irritated by clothing or for cosmetic reasons",
+      "Histopathologic confirmation if lesion is highly pigmented and difficult to distinguish from melanoma"
+    ],
+    "red_flags": [
+      "Sudden explosive eruption of hundreds of pruritic SK lesions (Sign of Leser-Trélat, potential paraneoplastic marker)",
+      "Atypical color variegation, asymmetry, or spontaneous ulceration"
+    ]
+  },
+  "Acne Vulgaris": {
+    "name": "Acne Vulgaris",
+    "category": "Pilosebaceous Inflammatory",
+    "urgency": "Routine Care",
+    "urgency_badge": "🟢 Low Urgency / Primary or Derm Care",
+    "description": "A disorder of the pilosebaceous unit characterized by microcomedones, open/closed comedones (blackheads/whiteheads), inflammatory papules, pustules, and nodulocystic lesions.",
+    "common_symptoms": [
+      "Comedones (open blackheads and closed whiteheads)",
+      "Inflammatory erythematous papules and pustules",
+      "Deep painful cysts and nodules in severe forms",
+      "Common distribution on face, chest, upper back, and shoulders"
+    ],
+    "risk_factors": [
+      "Androgen excess or hormonal fluctuations (puberty, menstrual cycle)",
+      "Excess sebum production and follicular hyperkeratinization",
+      "Cutibacterium acnes colonization and cutaneous inflammation",
+      "Comedogenic cosmetic products"
+    ],
+    "management_tips": [
+      "Topical retinoids (adapalene, tretinoin) combined with benzoyl peroxide",
+      "Topical or oral antibiotics (doxycycline) for inflammatory lesions",
+      "Hormonal therapy (combined oral contraceptives, spironolactone) for females",
+      "Oral isotretinoin for severe, recalcitrant, or scarring nodular acne"
+    ],
+    "red_flags": [
+      "Severe cystic scarring leading to psychological distress",
+      "Sudden acute fever with severe ulcerating acne (Acne Fulminans)"
+    ]
+  },
+  "Fungal Infection": {
+    "name": "Fungal Infection (Tinea / Dermatophytosis)",
+    "category": "Infectious (Fungal)",
+    "urgency": "Routine Care",
+    "urgency_badge": "🟢 Low-to-Moderate Urgency / Antifungal Therapy",
+    "description": "A superficial fungal infection of keratinized tissue (stratum corneum) caused by dermatophytes (Trichophyton, Microsporum, Epidermophyton), presenting as annular scaling plaques.",
+    "common_symptoms": [
+      "Annular ('ringworm') erythematous lesion with active scaly advancing border",
+      "Central clearing giving a ring-like appearance",
+      "Mild to moderate pruritus (itching)",
+      "Occasional satellite lesions or peripheral scaling"
+    ],
+    "risk_factors": [
+      "Warm, humid climates and occlusive clothing",
+      "Contact sports (wrestling), sharing towels, or contact with infected pets",
+      "Compromised immunity or diabetes mellitus"
+    ],
+    "management_tips": [
+      "Topical antifungals (terbinafine, clotrimazole, ketoconazole) applied 1-2 cm beyond the border for 2-4 weeks",
+      "Keep affected skin clean, dry, and well-ventilated",
+      "Oral antifungals (terbinafine, itraconazole) for extensive, scalp (tinea capitis), or nail involvement (onychomycosis)",
+      "Avoid topical steroids alone, which can cause 'tinea incognito'"
+    ],
+    "red_flags": [
+      "Secondary bacterial cellulitis or extensive uncontained spread",
+      "Persistent non-response after 4 weeks of standard antifungal therapy"
+    ]
+  },
+  "Healthy Skin": {
+    "name": "Healthy / Benign Nevus (Normal Skin)",
+    "category": "Physiological / Benign",
+    "urgency": "Routine Self-Monitoring",
+    "urgency_badge": "🟢 Low Urgency / Normal Variant",
+    "description": "Normal cutaneous tissue or common acquired melanocytic nevus exhibiting symmetric architecture, uniform coloration, sharp regular borders, and stable dimensions.",
+    "common_symptoms": [
+      "Symmetric round or oval shape",
+      "Evenly distributed light to dark brown pigmentation",
+      "Smooth, distinct borders with normal adjacent skin architecture",
+      "Asymptomatic (no pain, bleeding, persistent itching, or active ulceration)"
+    ],
+    "risk_factors": [
+      "Standard genetic background and baseline sun exposure"
+    ],
+    "management_tips": [
+      "Perform monthly head-to-toe skin self-examinations",
+      "Daily broad-spectrum sunscreen (SPF 30+) application",
+      "Wear UV-protective clothing and sunglasses during peak sunlight hours",
+      "Annual routine total-body skin check with a healthcare provider"
+    ],
+    "red_flags": [
+      "Any noticeable evolution in size, border symmetry, color variegation, or new symptoms"
+    ]
+  }
+}

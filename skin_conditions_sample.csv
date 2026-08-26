@@ -1,0 +1,11 @@
+age,itching,redness,scaling,lesion_size_mm,diagnosis
+22,1,1,0,3.2,Eczema
+35,0,1,1,5.1,Psoriasis
+41,1,1,1,4.0,Psoriasis
+29,1,0,0,2.5,Healthy
+50,0,0,1,6.3,Melanoma
+33,1,1,1,3.9,Eczema
+27,0,0,0,2.2,Healthy
+46,1,1,1,5.8,Psoriasis
+38,1,0,0,3.6,Eczema
+31,0,1,1,4.4,Dermatitis

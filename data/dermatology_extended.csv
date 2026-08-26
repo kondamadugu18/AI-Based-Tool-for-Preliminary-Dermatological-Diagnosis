@@ -1,0 +1,641 @@
+patient_id,age,gender,fitzpatrick_skin_type,body_site,itching,redness,scaling_peeling,burning_pain,bleeding_oozing,lesion_size_mm,elevation,duration_weeks,evolution_change,sun_exposure,family_history_skin_disease,diagnosis
+PT-0571,37,Female,I,Trunk,0,0,0,0,0,5.2,Flat,81,Stable,Low,0,Healthy Skin
+PT-0266,51,Female,I,Face/Neck,2,1,0,0,4,3.0,Nodular/Cystic,6,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0292,54,Male,III,Face/Neck,2,1,1,0,4,13.3,Nodular/Cystic,6,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0598,37,Male,II,Face/Neck,0,0,0,0,0,5.5,Raised/Plaque,247,Stable,Moderate,0,Healthy Skin
+PT-0175,35,Male,II,Arms/Hands,2,2,0,0,3,13.8,Raised/Plaque,60,Rapid Growth,High,1,Melanoma
+PT-0248,45,Male,V,Face/Neck,2,2,1,1,2,3.0,Nodular/Cystic,41,Slow Growth,Moderate,0,Basal Cell Carcinoma
+PT-0159,56,Male,II,Trunk,4,5,5,3,0,30.4,Raised/Plaque,77,Slow Growth,Moderate,0,Psoriasis
+PT-0070,24,Female,I,Arms/Hands,3,3,1,3,1,14.8,Raised/Plaque,58,Fluctuating,Moderate,0,Eczema
+PT-0032,31,Female,IV,Legs/Feet,4,4,4,2,0,12.4,Flat,22,Fluctuating,Moderate,0,Eczema
+PT-0276,63,Male,II,Trunk,2,2,2,0,4,12.0,Raised/Plaque,74,Slow Growth,Low,0,Basal Cell Carcinoma
+PT-0418,13,Male,III,Trunk,2,3,0,0,1,3.7,Raised/Plaque,32,Fluctuating,High,1,Acne Vulgaris
+PT-0232,74,Female,III,Face/Neck,1,3,1,2,3,8.6,Raised/Plaque,44,Rapid Growth,High,0,Melanoma
+PT-0011,24,Female,II,Scalp,3,4,2,2,1,11.7,Flat,41,Fluctuating,Low,1,Eczema
+PT-0524,33,Female,V,Trunk,4,3,3,3,0,14.8,Raised/Plaque,3,Slow Growth,Low,0,Fungal Infection
+PT-0091,64,Male,II,Arms/Hands,3,4,4,1,2,32.8,Raised/Plaque,29,Slow Growth,High,1,Psoriasis
+PT-0358,56,Female,I,Trunk,2,0,3,1,0,4.4,Raised/Plaque,72,Slow Growth,Low,0,Seborrheic Keratosis
+PT-0526,29,Male,II,Arms/Hands,4,1,3,1,1,11.0,Raised/Plaque,7,Slow Growth,Low,0,Fungal Infection
+PT-0542,56,Male,III,Arms/Hands,5,5,3,1,0,14.9,Flat,16,Slow Growth,Moderate,0,Fungal Infection
+PT-0262,64,Male,II,Face/Neck,0,3,0,1,3,8.5,Raised/Plaque,17,Slow Growth,Low,0,Basal Cell Carcinoma
+PT-0429,20,Female,II,Trunk,2,2,1,2,1,4.0,Nodular/Cystic,26,Fluctuating,Low,1,Acne Vulgaris
+PT-0239,62,Female,I,Legs/Feet,0,1,2,0,1,12.5,Nodular/Cystic,26,Rapid Growth,Moderate,0,Melanoma
+PT-0437,28,Male,II,Face/Neck,2,5,0,0,1,4.8,Raised/Plaque,1,Fluctuating,Moderate,1,Acne Vulgaris
+PT-0156,42,Male,III,Arms/Hands,2,3,5,1,2,12.7,Raised/Plaque,19,Fluctuating,Moderate,1,Psoriasis
+PT-0599,22,Female,II,Face/Neck,0,0,0,0,0,4.2,Flat,20,Stable,Moderate,0,Healthy Skin
+PT-0177,55,Male,I,Arms/Hands,2,2,2,3,2,8.5,Nodular/Cystic,19,Slow Growth,Low,1,Melanoma
+PT-0573,75,Female,II,Trunk,0,0,0,0,0,1.0,Flat,260,Stable,Moderate,1,Healthy Skin
+PT-0434,19,Male,V,Arms/Hands,0,3,1,0,2,4.3,Raised/Plaque,16,Fluctuating,Moderate,0,Acne Vulgaris
+PT-0570,37,Male,IV,Legs/Feet,0,0,0,0,0,4.7,Flat,210,Stable,High,1,Healthy Skin
+PT-0119,27,Male,I,Scalp,1,3,4,2,3,13.8,Raised/Plaque,82,Stable,Moderate,0,Psoriasis
+PT-0504,24,Female,V,Arms/Hands,3,4,2,1,1,4.0,Flat,3,Rapid Growth,Moderate,0,Fungal Infection
+PT-0516,33,Female,III,Flexural Folds,3,4,4,2,0,14.7,Raised/Plaque,1,Slow Growth,High,0,Fungal Infection
+PT-0636,43,Female,IV,Legs/Feet,0,0,0,0,0,4.2,Flat,53,Stable,Moderate,0,Healthy Skin
+PT-0077,27,Male,IV,Face/Neck,3,5,3,2,2,10.5,Raised/Plaque,1,Fluctuating,Moderate,1,Eczema
+PT-0111,46,Male,V,Face/Neck,2,4,4,3,2,18.2,Raised/Plaque,46,Slow Growth,Moderate,1,Psoriasis
+PT-0064,12,Female,II,Flexural Folds,5,5,1,2,1,10.4,Flat,24,Fluctuating,Low,1,Eczema
+PT-0282,70,Male,I,Face/Neck,0,1,3,1,3,6.4,Nodular/Cystic,15,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0110,22,Male,I,Scalp,1,5,4,2,2,11.5,Raised/Plaque,64,Fluctuating,Moderate,1,Psoriasis
+PT-0073,31,Female,I,Flexural Folds,4,4,3,2,2,8.3,Flat,40,Fluctuating,Moderate,1,Eczema
+PT-0003,28,Male,II,Face/Neck,3,3,3,1,2,6.4,Raised/Plaque,12,Slow Growth,High,1,Eczema
+PT-0056,25,Male,III,Flexural Folds,3,4,4,3,0,17.1,Raised/Plaque,8,Fluctuating,Moderate,0,Eczema
+PT-0423,28,Male,I,Face/Neck,1,4,1,3,2,4.8,Raised/Plaque,37,Fluctuating,Moderate,0,Acne Vulgaris
+PT-0336,40,Female,III,Trunk,0,0,3,0,0,11.1,Raised/Plaque,100,Stable,Moderate,1,Seborrheic Keratosis
+PT-0216,71,Female,I,Face/Neck,1,2,1,1,4,12.3,Flat,14,Slow Growth,Low,0,Melanoma
+PT-0356,86,Female,I,Trunk,1,0,1,0,0,11.5,Raised/Plaque,59,Stable,High,1,Seborrheic Keratosis
+PT-0222,69,Male,I,Trunk,1,0,0,1,2,11.4,Raised/Plaque,6,Rapid Growth,High,1,Melanoma
+PT-0287,78,Male,II,Face/Neck,1,2,0,0,2,6.2,Raised/Plaque,112,Rapid Growth,Moderate,0,Basal Cell Carcinoma
+PT-0368,65,Female,II,Legs/Feet,0,1,1,0,0,6.0,Raised/Plaque,30,Stable,High,1,Seborrheic Keratosis
+PT-0031,22,Male,V,Flexural Folds,4,5,3,1,0,5.8,Raised/Plaque,15,Fluctuating,Low,1,Eczema
+PT-0321,51,Female,II,Trunk,1,0,3,0,0,2.5,Raised/Plaque,69,Stable,Moderate,0,Seborrheic Keratosis
+PT-0279,51,Female,I,Face/Neck,0,2,1,0,2,3.0,Nodular/Cystic,25,Slow Growth,Moderate,1,Basal Cell Carcinoma
+PT-0584,34,Female,III,Legs/Feet,0,0,0,0,0,1.9,Raised/Plaque,176,Slow Growth,Low,0,Healthy Skin
+PT-0311,61,Male,II,Face/Neck,0,1,0,1,2,13.9,Raised/Plaque,43,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0335,62,Male,IV,Face/Neck,0,1,2,0,1,13.9,Raised/Plaque,10,Slow Growth,Moderate,0,Seborrheic Keratosis
+PT-0082,46,Female,I,Scalp,1,4,3,2,1,27.9,Raised/Plaque,33,Fluctuating,Low,0,Psoriasis
+PT-0258,62,Male,I,Face/Neck,0,4,1,0,3,10.8,Raised/Plaque,21,Stable,High,1,Basal Cell Carcinoma
+PT-0134,53,Female,III,Scalp,3,3,4,1,1,18.3,Raised/Plaque,31,Stable,Low,1,Psoriasis
+PT-0212,42,Male,II,Trunk,0,0,1,2,4,12.2,Nodular/Cystic,9,Rapid Growth,High,1,Melanoma
+PT-0479,25,Male,VI,Face/Neck,1,2,1,4,1,4.2,Raised/Plaque,50,Fluctuating,Moderate,0,Acne Vulgaris
+PT-0045,11,Female,IV,Scalp,3,4,3,1,2,7.5,Raised/Plaque,1,Fluctuating,Moderate,1,Eczema
+PT-0221,40,Female,III,Legs/Feet,3,2,1,0,1,13.5,Raised/Plaque,80,Slow Growth,Moderate,0,Melanoma
+PT-0412,16,Female,III,Face/Neck,2,2,2,3,1,5.3,Raised/Plaque,43,Fluctuating,Low,0,Acne Vulgaris
+PT-0109,63,Female,III,Legs/Feet,4,3,4,3,1,13.2,Raised/Plaque,20,Rapid Growth,High,0,Psoriasis
+PT-0554,15,Female,IV,Trunk,4,4,4,1,0,18.2,Flat,11,Slow Growth,Moderate,1,Fungal Infection
+PT-0133,51,Female,I,Legs/Feet,2,3,4,0,1,5.1,Raised/Plaque,47,Stable,High,1,Psoriasis
+PT-0558,33,Female,II,Arms/Hands,4,3,5,3,0,14.1,Raised/Plaque,2,Rapid Growth,Moderate,1,Fungal Infection
+PT-0497,45,Female,IV,Legs/Feet,4,4,3,1,1,16.0,Raised/Plaque,3,Slow Growth,Low,0,Fungal Infection
+PT-0066,37,Female,VI,Flexural Folds,4,4,2,2,0,6.5,Flat,20,Fluctuating,Low,0,Eczema
+PT-0339,71,Male,II,Legs/Feet,0,1,2,0,0,8.8,Nodular/Cystic,67,Stable,Low,0,Seborrheic Keratosis
+PT-0050,5,Male,III,Trunk,3,3,3,2,1,14.9,Raised/Plaque,3,Fluctuating,Low,0,Eczema
+PT-0079,8,Female,III,Face/Neck,4,4,3,3,2,3.0,Raised/Plaque,70,Stable,High,1,Eczema
+PT-0628,38,Female,II,Trunk,0,0,0,0,0,3.1,Flat,120,Stable,High,0,Healthy Skin
+PT-0040,16,Male,II,Flexural Folds,4,4,2,1,2,15.2,Raised/Plaque,13,Rapid Growth,Moderate,0,Eczema
+PT-0219,35,Male,I,Arms/Hands,1,2,0,0,2,14.4,Raised/Plaque,33,Slow Growth,High,0,Melanoma
+PT-0275,56,Female,II,Legs/Feet,1,1,2,2,3,4.3,Raised/Plaque,58,Rapid Growth,Moderate,1,Basal Cell Carcinoma
+PT-0007,16,Female,IV,Trunk,3,3,2,2,3,15.5,Flat,35,Fluctuating,High,1,Eczema
+PT-0528,34,Female,VI,Legs/Feet,4,3,5,0,0,23.8,Raised/Plaque,4,Stable,Moderate,1,Fungal Infection
+PT-0087,57,Female,III,Arms/Hands,2,4,4,0,0,26.4,Raised/Plaque,55,Slow Growth,High,0,Psoriasis
+PT-0370,64,Female,I,Trunk,1,2,3,0,0,5.0,Raised/Plaque,84,Stable,Low,1,Seborrheic Keratosis
+PT-0637,69,Female,I,Face/Neck,0,0,0,0,0,2.3,Flat,20,Stable,High,0,Healthy Skin
+PT-0261,36,Female,III,Face/Neck,0,1,1,1,2,11.5,Nodular/Cystic,115,Stable,Low,0,Basal Cell Carcinoma
+PT-0305,72,Male,II,Face/Neck,1,1,0,1,4,4.7,Flat,119,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0415,16,Male,I,Trunk,1,3,2,2,0,3.0,Nodular/Cystic,4,Slow Growth,Moderate,1,Acne Vulgaris
+PT-0578,64,Female,IV,Face/Neck,0,0,0,0,0,5.5,Raised/Plaque,123,Stable,Moderate,0,Healthy Skin
+PT-0260,69,Male,II,Trunk,0,2,1,1,2,7.3,Raised/Plaque,8,Slow Growth,Low,0,Basal Cell Carcinoma
+PT-0595,56,Male,IV,Legs/Feet,0,0,0,0,0,1.0,Flat,20,Stable,Low,0,Healthy Skin
+PT-0146,24,Male,I,Trunk,1,3,4,2,2,4.0,Raised/Plaque,20,Rapid Growth,Moderate,0,Psoriasis
+PT-0299,44,Female,I,Trunk,1,2,0,3,4,4.0,Raised/Plaque,34,Rapid Growth,High,1,Basal Cell Carcinoma
+PT-0042,2,Male,IV,Arms/Hands,5,4,2,4,0,7.8,Raised/Plaque,28,Fluctuating,Low,1,Eczema
+PT-0200,40,Male,I,Legs/Feet,0,2,1,0,4,7.8,Raised/Plaque,38,Slow Growth,High,0,Melanoma
+PT-0362,56,Male,IV,Face/Neck,1,1,1,1,0,3.0,Raised/Plaque,13,Slow Growth,High,0,Seborrheic Keratosis
+PT-0057,19,Male,III,Trunk,4,2,2,3,0,17.4,Raised/Plaque,17,Fluctuating,Moderate,0,Eczema
+PT-0639,39,Female,IV,Scalp,0,1,0,0,0,2.5,Flat,20,Slow Growth,Low,0,Healthy Skin
+PT-0236,54,Male,II,Trunk,1,1,1,1,0,10.9,Nodular/Cystic,7,Rapid Growth,Moderate,0,Melanoma
+PT-0399,72,Male,I,Arms/Hands,0,2,1,0,0,8.2,Raised/Plaque,162,Stable,Low,0,Seborrheic Keratosis
+PT-0210,53,Male,I,Scalp,0,1,0,2,1,6.5,Flat,7,Slow Growth,High,0,Melanoma
+PT-0102,22,Male,VI,Trunk,2,4,4,1,2,13.0,Raised/Plaque,24,Fluctuating,High,1,Psoriasis
+PT-0025,40,Male,IV,Flexural Folds,3,3,3,0,3,12.1,Flat,2,Fluctuating,Moderate,0,Eczema
+PT-0550,26,Female,II,Trunk,3,3,3,1,0,16.2,Flat,11,Slow Growth,Moderate,1,Fungal Infection
+PT-0204,49,Male,II,Face/Neck,3,2,2,3,4,10.8,Raised/Plaque,20,Rapid Growth,High,0,Melanoma
+PT-0178,59,Male,I,Trunk,2,3,0,1,4,17.2,Nodular/Cystic,56,Stable,High,0,Melanoma
+PT-0083,54,Male,II,Legs/Feet,4,4,5,2,2,15.4,Raised/Plaque,26,Fluctuating,Low,0,Psoriasis
+PT-0624,18,Male,II,Legs/Feet,0,1,0,0,0,3.8,Flat,112,Stable,Low,0,Healthy Skin
+PT-0622,50,Female,II,Trunk,0,0,0,0,0,1.7,Raised/Plaque,172,Slow Growth,Low,0,Healthy Skin
+PT-0078,39,Male,III,Legs/Feet,3,3,2,1,2,20.8,Raised/Plaque,12,Fluctuating,Low,1,Eczema
+PT-0514,27,Male,III,Trunk,2,3,3,1,0,5.9,Raised/Plaque,1,Stable,Moderate,0,Fungal Infection
+PT-0071,22,Female,IV,Flexural Folds,2,2,2,0,1,17.9,Flat,1,Fluctuating,Moderate,0,Eczema
+PT-0391,58,Male,II,Trunk,2,1,3,0,0,10.2,Raised/Plaque,45,Stable,Moderate,1,Seborrheic Keratosis
+PT-0209,59,Male,II,Legs/Feet,1,1,0,1,3,6.8,Flat,6,Rapid Growth,Moderate,0,Melanoma
+PT-0245,51,Female,II,Face/Neck,0,4,1,1,3,12.1,Nodular/Cystic,12,Stable,Moderate,0,Basal Cell Carcinoma
+PT-0303,64,Female,I,Face/Neck,0,3,1,0,1,7.8,Nodular/Cystic,30,Slow Growth,Moderate,0,Basal Cell Carcinoma
+PT-0061,9,Male,IV,Face/Neck,5,4,1,1,2,19.2,Raised/Plaque,4,Stable,High,0,Eczema
+PT-0132,12,Male,I,Legs/Feet,2,4,4,3,2,20.5,Raised/Plaque,4,Fluctuating,Moderate,0,Psoriasis
+PT-0421,24,Male,I,Face/Neck,1,2,1,2,1,7.1,Nodular/Cystic,7,Slow Growth,Moderate,1,Acne Vulgaris
+PT-0327,71,Male,IV,Trunk,0,1,5,0,0,9.1,Raised/Plaque,17,Stable,Low,1,Seborrheic Keratosis
+PT-0594,32,Male,II,Trunk,0,0,0,0,0,4.0,Flat,42,Stable,Low,0,Healthy Skin
+PT-0610,41,Female,II,Trunk,0,0,0,0,0,3.0,Flat,79,Stable,High,0,Healthy Skin
+PT-0519,27,Male,IV,Arms/Hands,3,3,4,1,0,11.3,Raised/Plaque,4,Slow Growth,High,0,Fungal Infection
+PT-0205,38,Female,II,Legs/Feet,1,1,2,0,3,14.0,Nodular/Cystic,21,Slow Growth,Moderate,1,Melanoma
+PT-0300,66,Female,II,Face/Neck,2,4,1,3,1,9.2,Nodular/Cystic,7,Slow Growth,Moderate,0,Basal Cell Carcinoma
+PT-0589,20,Male,V,Face/Neck,1,0,0,0,0,4.6,Flat,68,Stable,Moderate,1,Healthy Skin
+PT-0431,17,Male,I,Trunk,2,4,2,0,2,9.8,Raised/Plaque,41,Fluctuating,Moderate,0,Acne Vulgaris
+PT-0483,26,Male,IV,Arms/Hands,3,3,3,1,1,21.7,Raised/Plaque,1,Slow Growth,Low,0,Fungal Infection
+PT-0545,39,Female,I,Legs/Feet,4,3,4,2,0,29.7,Raised/Plaque,16,Slow Growth,Moderate,0,Fungal Infection
+PT-0420,13,Female,IV,Face/Neck,1,5,3,1,0,5.9,Flat,1,Fluctuating,Moderate,0,Acne Vulgaris
+PT-0030,29,Female,IV,Scalp,4,3,3,1,2,7.4,Raised/Plaque,56,Fluctuating,High,1,Eczema
+PT-0587,6,Female,III,Trunk,0,0,0,0,0,3.9,Flat,113,Stable,High,0,Healthy Skin
+PT-0136,25,Male,II,Arms/Hands,3,4,5,3,4,18.9,Raised/Plaque,10,Slow Growth,Moderate,0,Psoriasis
+PT-0439,14,Male,II,Face/Neck,3,2,0,3,0,2.0,Raised/Plaque,3,Slow Growth,Low,1,Acne Vulgaris
+PT-0410,16,Male,V,Face/Neck,2,3,2,3,1,3.3,Nodular/Cystic,16,Fluctuating,Low,0,Acne Vulgaris
+PT-0251,72,Male,III,Face/Neck,1,1,2,0,5,10.1,Nodular/Cystic,15,Rapid Growth,Low,0,Basal Cell Carcinoma
+PT-0430,19,Male,III,Face/Neck,0,3,1,1,1,1.5,Raised/Plaque,5,Fluctuating,Moderate,0,Acne Vulgaris
+PT-0433,11,Female,II,Face/Neck,1,3,2,0,4,3.5,Raised/Plaque,3,Fluctuating,Low,1,Acne Vulgaris
+PT-0471,18,Female,V,Scalp,1,2,1,2,2,5.7,Nodular/Cystic,3,Slow Growth,Moderate,0,Acne Vulgaris
+PT-0182,54,Male,IV,Trunk,2,1,3,2,4,13.6,Raised/Plaque,9,Slow Growth,High,1,Melanoma
+PT-0334,64,Female,I,Trunk,1,0,2,1,0,2.5,Raised/Plaque,84,Stable,Low,0,Seborrheic Keratosis
+PT-0484,13,Male,I,Trunk,3,2,3,2,1,12.7,Raised/Plaque,2,Slow Growth,Low,0,Fungal Infection
+PT-0486,27,Male,III,Arms/Hands,5,3,2,0,1,17.7,Flat,1,Rapid Growth,Low,0,Fungal Infection
+PT-0600,24,Female,I,Trunk,0,0,0,0,0,1.0,Raised/Plaque,24,Stable,High,0,Healthy Skin
+PT-0604,54,Female,II,Legs/Feet,0,0,0,0,0,2.6,Flat,208,Stable,Moderate,0,Healthy Skin
+PT-0627,68,Male,III,Arms/Hands,0,1,0,0,0,5.8,Flat,186,Stable,Moderate,1,Healthy Skin
+PT-0250,43,Male,II,Face/Neck,0,2,2,3,4,3.6,Nodular/Cystic,6,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0228,49,Female,I,Trunk,2,2,0,0,3,8.8,Flat,65,Rapid Growth,High,0,Melanoma
+PT-0489,40,Male,I,Scalp,3,4,2,0,1,19.1,Raised/Plaque,4,Slow Growth,Low,0,Fungal Infection
+PT-0105,12,Female,II,Arms/Hands,2,4,4,3,0,5.2,Raised/Plaque,4,Fluctuating,Moderate,1,Psoriasis
+PT-0115,69,Female,III,Legs/Feet,4,3,5,2,3,26.9,Raised/Plaque,54,Slow Growth,Moderate,0,Psoriasis
+PT-0149,45,Female,II,Arms/Hands,1,5,4,2,3,27.3,Raised/Plaque,4,Fluctuating,Moderate,1,Psoriasis
+PT-0211,51,Male,I,Legs/Feet,2,0,1,2,3,10.4,Raised/Plaque,3,Rapid Growth,Moderate,0,Melanoma
+PT-0008,28,Male,I,Trunk,5,3,1,2,1,12.3,Raised/Plaque,45,Rapid Growth,Moderate,1,Eczema
+PT-0396,40,Male,III,Face/Neck,1,0,2,0,0,13.4,Raised/Plaque,48,Stable,Moderate,0,Seborrheic Keratosis
+PT-0616,18,Male,IV,Legs/Feet,0,0,0,0,0,4.3,Flat,77,Stable,Low,1,Healthy Skin
+PT-0329,59,Female,II,Trunk,0,1,1,0,0,9.4,Raised/Plaque,10,Stable,High,1,Seborrheic Keratosis
+PT-0447,35,Male,IV,Face/Neck,2,3,1,2,3,4.0,Raised/Plaque,2,Fluctuating,Low,0,Acne Vulgaris
+PT-0322,53,Male,II,Trunk,1,0,1,0,0,2.5,Raised/Plaque,245,Stable,Moderate,1,Seborrheic Keratosis
+PT-0634,49,Male,V,Scalp,0,0,0,0,0,3.4,Flat,72,Stable,Low,0,Healthy Skin
+PT-0164,74,Male,I,Legs/Feet,1,0,1,1,1,8.9,Nodular/Cystic,18,Slow Growth,High,1,Melanoma
+PT-0141,16,Female,II,Arms/Hands,2,3,5,3,3,21.8,Raised/Plaque,39,Slow Growth,Low,1,Psoriasis
+PT-0438,22,Male,II,Face/Neck,0,5,0,1,1,6.6,Raised/Plaque,5,Slow Growth,Low,1,Acne Vulgaris
+PT-0044,38,Male,II,Arms/Hands,5,3,1,2,1,18.9,Raised/Plaque,37,Fluctuating,Low,1,Eczema
+PT-0043,30,Female,IV,Face/Neck,5,3,3,1,1,17.3,Raised/Plaque,7,Fluctuating,Low,1,Eczema
+PT-0074,28,Male,I,Flexural Folds,3,3,2,2,0,17.4,Raised/Plaque,5,Fluctuating,Low,0,Eczema
+PT-0166,60,Female,V,Trunk,1,0,0,1,3,9.7,Flat,37,Rapid Growth,High,1,Melanoma
+PT-0574,22,Female,I,Trunk,0,0,0,0,0,5.3,Flat,44,Stable,Moderate,0,Healthy Skin
+PT-0067,2,Female,III,Flexural Folds,3,4,2,0,2,15.4,Raised/Plaque,30,Fluctuating,Moderate,1,Eczema
+PT-0012,11,Female,III,Legs/Feet,3,3,1,3,3,8.8,Raised/Plaque,34,Fluctuating,Moderate,0,Eczema
+PT-0214,69,Female,I,Trunk,1,4,0,1,0,13.0,Raised/Plaque,3,Rapid Growth,Moderate,0,Melanoma
+PT-0409,11,Female,I,Face/Neck,1,2,1,2,1,1.5,Nodular/Cystic,3,Slow Growth,Low,0,Acne Vulgaris
+PT-0337,68,Female,II,Trunk,1,1,2,0,0,11.3,Raised/Plaque,16,Stable,High,0,Seborrheic Keratosis
+PT-0249,82,Male,II,Trunk,1,2,2,1,4,6.4,Nodular/Cystic,68,Slow Growth,Moderate,1,Basal Cell Carcinoma
+PT-0405,22,Male,II,Arms/Hands,0,3,0,1,0,2.3,Nodular/Cystic,34,Slow Growth,Low,0,Acne Vulgaris
+PT-0453,11,Female,II,Face/Neck,1,4,1,3,0,6.0,Raised/Plaque,10,Fluctuating,Moderate,1,Acne Vulgaris
+PT-0378,62,Male,II,Trunk,0,0,0,1,0,3.3,Raised/Plaque,65,Stable,High,1,Seborrheic Keratosis
+PT-0084,33,Male,V,Arms/Hands,2,4,4,2,1,26.7,Raised/Plaque,23,Rapid Growth,Low,0,Psoriasis
+PT-0466,21,Female,V,Face/Neck,1,4,0,1,0,3.6,Raised/Plaque,22,Rapid Growth,Moderate,1,Acne Vulgaris
+PT-0306,63,Female,III,Face/Neck,1,1,1,2,3,10.9,Nodular/Cystic,35,Slow Growth,Moderate,0,Basal Cell Carcinoma
+PT-0548,19,Female,V,Arms/Hands,2,2,3,1,0,19.9,Raised/Plaque,8,Slow Growth,Low,0,Fungal Infection
+PT-0080,11,Male,IV,Arms/Hands,2,3,4,2,2,6.5,Raised/Plaque,21,Slow Growth,Moderate,1,Eczema
+PT-0024,40,Male,V,Legs/Feet,3,4,2,2,1,10.3,Nodular/Cystic,48,Fluctuating,Moderate,1,Eczema
+PT-0606,66,Female,IV,Arms/Hands,0,0,0,0,0,1.4,Flat,170,Stable,Low,0,Healthy Skin
+PT-0330,73,Female,I,Face/Neck,0,0,3,0,1,10.7,Raised/Plaque,10,Slow Growth,Low,1,Seborrheic Keratosis
+PT-0312,74,Female,II,Face/Neck,1,2,1,0,3,9.7,Nodular/Cystic,57,Rapid Growth,High,0,Basal Cell Carcinoma
+PT-0363,40,Female,III,Trunk,1,0,2,0,1,5.4,Raised/Plaque,28,Slow Growth,Moderate,0,Seborrheic Keratosis
+PT-0452,16,Female,II,Face/Neck,0,3,1,3,2,5.9,Nodular/Cystic,9,Fluctuating,Low,1,Acne Vulgaris
+PT-0291,57,Male,III,Face/Neck,0,1,1,1,3,10.3,Nodular/Cystic,77,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0138,33,Male,III,Trunk,3,3,4,3,1,12.8,Raised/Plaque,19,Slow Growth,High,1,Psoriasis
+PT-0468,18,Female,I,Face/Neck,3,2,0,2,2,3.4,Nodular/Cystic,20,Slow Growth,High,1,Acne Vulgaris
+PT-0451,11,Female,VI,Face/Neck,2,3,0,1,1,4.1,Raised/Plaque,8,Slow Growth,Low,1,Acne Vulgaris
+PT-0193,73,Male,II,Arms/Hands,0,2,0,2,2,11.7,Flat,22,Slow Growth,Moderate,0,Melanoma
+PT-0572,25,Male,III,Trunk,0,0,0,0,0,2.6,Flat,34,Stable,Moderate,0,Healthy Skin
+PT-0010,20,Female,IV,Trunk,3,5,4,3,0,14.5,Raised/Plaque,6,Slow Growth,Low,1,Eczema
+PT-0319,65,Female,II,Face/Neck,0,3,0,0,2,5.0,Nodular/Cystic,23,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0265,56,Male,II,Arms/Hands,2,2,1,1,2,7.1,Nodular/Cystic,18,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0364,55,Male,I,Trunk,1,1,2,1,0,7.7,Raised/Plaque,91,Stable,Moderate,0,Seborrheic Keratosis
+PT-0626,9,Female,I,Face/Neck,0,0,0,0,0,1.0,Flat,112,Stable,Low,0,Healthy Skin
+PT-0355,83,Female,I,Scalp,2,1,2,0,0,2.5,Raised/Plaque,10,Slow Growth,Moderate,1,Seborrheic Keratosis
+PT-0085,27,Male,III,Scalp,3,4,4,3,1,22.4,Raised/Plaque,101,Rapid Growth,Moderate,1,Psoriasis
+PT-0290,59,Male,III,Face/Neck,2,2,1,1,2,12.0,Flat,33,Slow Growth,Moderate,0,Basal Cell Carcinoma
+PT-0527,29,Male,I,Trunk,3,2,4,1,0,15.4,Raised/Plaque,5,Slow Growth,Moderate,0,Fungal Infection
+PT-0197,41,Female,I,Trunk,0,1,0,2,2,14.7,Flat,5,Rapid Growth,Moderate,0,Melanoma
+PT-0272,58,Female,I,Face/Neck,1,2,2,0,4,11.7,Nodular/Cystic,18,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0094,23,Male,III,Legs/Feet,1,4,5,0,2,18.0,Raised/Plaque,41,Slow Growth,Moderate,1,Psoriasis
+PT-0257,69,Female,I,Face/Neck,0,4,2,1,3,12.8,Nodular/Cystic,6,Rapid Growth,Low,1,Basal Cell Carcinoma
+PT-0213,40,Female,II,Arms/Hands,1,0,0,0,4,8.4,Raised/Plaque,14,Rapid Growth,Low,0,Melanoma
+PT-0029,22,Female,III,Arms/Hands,4,3,1,3,0,3.0,Raised/Plaque,18,Slow Growth,High,1,Eczema
+PT-0185,66,Female,I,Face/Neck,0,2,2,0,1,16.3,Raised/Plaque,26,Slow Growth,High,1,Melanoma
+PT-0515,21,Female,III,Flexural Folds,5,2,4,1,0,26.9,Raised/Plaque,1,Slow Growth,High,0,Fungal Infection
+PT-0179,42,Female,I,Arms/Hands,0,3,0,0,2,6.7,Raised/Plaque,27,Slow Growth,Low,0,Melanoma
+PT-0529,55,Male,I,Trunk,5,3,4,1,0,22.3,Raised/Plaque,1,Rapid Growth,Low,0,Fungal Infection
+PT-0154,51,Male,III,Trunk,2,5,5,0,1,19.5,Raised/Plaque,9,Fluctuating,High,1,Psoriasis
+PT-0076,18,Female,I,Arms/Hands,3,3,2,2,1,9.6,Flat,13,Fluctuating,High,0,Eczema
+PT-0351,52,Male,I,Trunk,2,1,3,0,0,3.4,Raised/Plaque,10,Rapid Growth,Low,1,Seborrheic Keratosis
+PT-0093,53,Male,II,Legs/Feet,2,5,4,2,1,35.8,Raised/Plaque,46,Fluctuating,Low,0,Psoriasis
+PT-0347,52,Male,III,Trunk,0,0,2,0,1,6.5,Flat,10,Stable,Moderate,0,Seborrheic Keratosis
+PT-0069,24,Female,II,Scalp,4,5,3,2,1,17.2,Raised/Plaque,16,Fluctuating,Low,1,Eczema
+PT-0361,59,Male,II,Trunk,1,2,2,0,0,8.7,Raised/Plaque,24,Stable,Low,1,Seborrheic Keratosis
+PT-0328,44,Female,III,Face/Neck,2,1,2,0,1,11.0,Raised/Plaque,62,Stable,Moderate,0,Seborrheic Keratosis
+PT-0189,63,Male,III,Legs/Feet,0,1,1,0,1,9.9,Raised/Plaque,10,Slow Growth,High,1,Melanoma
+PT-0016,19,Female,I,Scalp,5,3,4,3,0,22.3,Flat,26,Fluctuating,High,1,Eczema
+PT-0237,71,Male,III,Face/Neck,1,2,0,0,2,12.2,Flat,16,Rapid Growth,Moderate,0,Melanoma
+PT-0235,45,Male,I,Arms/Hands,1,0,1,0,2,7.1,Flat,20,Slow Growth,Low,0,Melanoma
+PT-0089,12,Female,IV,Arms/Hands,2,4,4,1,0,29.6,Raised/Plaque,32,Fluctuating,High,1,Psoriasis
+PT-0537,38,Male,II,Arms/Hands,4,1,3,1,0,11.7,Raised/Plaque,2,Slow Growth,Moderate,0,Fungal Infection
+PT-0118,39,Male,I,Legs/Feet,1,4,5,3,2,9.2,Raised/Plaque,48,Rapid Growth,High,0,Psoriasis
+PT-0448,17,Female,IV,Arms/Hands,2,4,1,1,0,7.4,Nodular/Cystic,10,Stable,Low,1,Acne Vulgaris
+PT-0608,39,Female,II,Face/Neck,0,0,0,0,0,5.0,Flat,70,Stable,Moderate,0,Healthy Skin
+PT-0034,28,Male,VI,Arms/Hands,5,2,3,2,0,16.9,Raised/Plaque,36,Fluctuating,Moderate,0,Eczema
+PT-0001,8,Male,I,Face/Neck,4,4,4,1,1,10.6,Raised/Plaque,9,Rapid Growth,Moderate,0,Eczema
+PT-0633,41,Female,V,Arms/Hands,0,0,0,0,0,1.0,Flat,238,Stable,Low,0,Healthy Skin
+PT-0426,18,Female,IV,Face/Neck,1,4,1,0,2,7.9,Raised/Plaque,9,Slow Growth,High,1,Acne Vulgaris
+PT-0404,17,Male,II,Trunk,1,4,0,1,1,7.5,Raised/Plaque,51,Fluctuating,Low,1,Acne Vulgaris
+PT-0581,11,Female,II,Arms/Hands,0,0,0,0,0,3.4,Flat,62,Stable,Low,0,Healthy Skin
+PT-0488,39,Male,III,Trunk,2,3,4,1,0,27.5,Raised/Plaque,1,Fluctuating,Moderate,0,Fungal Infection
+PT-0632,45,Male,IV,Arms/Hands,0,0,0,0,0,3.0,Flat,97,Stable,Moderate,0,Healthy Skin
+PT-0023,29,Female,IV,Arms/Hands,4,4,2,0,0,10.0,Raised/Plaque,31,Fluctuating,Moderate,1,Eczema
+PT-0062,27,Female,III,Flexural Folds,5,3,2,0,2,15.9,Nodular/Cystic,23,Fluctuating,Moderate,1,Eczema
+PT-0117,23,Female,II,Arms/Hands,3,4,5,0,2,26.3,Raised/Plaque,7,Fluctuating,Moderate,1,Psoriasis
+PT-0444,21,Female,V,Face/Neck,2,2,1,1,0,5.7,Raised/Plaque,21,Stable,Moderate,1,Acne Vulgaris
+PT-0229,41,Male,II,Scalp,1,4,1,1,1,10.6,Nodular/Cystic,26,Slow Growth,Moderate,0,Melanoma
+PT-0090,14,Female,I,Trunk,2,4,4,3,1,10.4,Raised/Plaque,11,Slow Growth,High,1,Psoriasis
+PT-0183,53,Female,II,Arms/Hands,2,1,3,1,2,8.2,Nodular/Cystic,12,Rapid Growth,Moderate,1,Melanoma
+PT-0269,73,Male,II,Arms/Hands,1,4,1,1,4,6.0,Raised/Plaque,10,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0278,88,Female,II,Face/Neck,1,3,1,0,3,8.7,Nodular/Cystic,11,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0019,24,Female,II,Flexural Folds,4,3,1,1,3,12.0,Flat,12,Fluctuating,Moderate,0,Eczema
+PT-0293,61,Female,I,Scalp,1,1,0,1,3,13.3,Nodular/Cystic,15,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0376,56,Female,II,Trunk,1,2,0,0,0,11.3,Raised/Plaque,37,Stable,Low,1,Seborrheic Keratosis
+PT-0145,40,Male,IV,Legs/Feet,3,3,3,2,0,19.5,Raised/Plaque,50,Fluctuating,Moderate,0,Psoriasis
+PT-0510,38,Female,V,Arms/Hands,3,2,3,0,0,20.0,Raised/Plaque,1,Slow Growth,Moderate,0,Fungal Infection
+PT-0323,64,Female,I,Trunk,0,0,3,0,1,7.0,Nodular/Cystic,10,Stable,Moderate,1,Seborrheic Keratosis
+PT-0577,6,Male,III,Face/Neck,0,0,0,0,0,1.0,Flat,21,Stable,Low,0,Healthy Skin
+PT-0422,15,Female,I,Face/Neck,2,3,1,1,1,5.9,Raised/Plaque,1,Slow Growth,Low,1,Acne Vulgaris
+PT-0435,28,Male,V,Face/Neck,1,3,0,0,1,4.9,Raised/Plaque,10,Fluctuating,Moderate,1,Acne Vulgaris
+PT-0285,51,Male,I,Face/Neck,0,2,1,0,3,9.7,Nodular/Cystic,6,Rapid Growth,Moderate,1,Basal Cell Carcinoma
+PT-0397,74,Female,I,Trunk,0,1,0,0,0,10.2,Raised/Plaque,65,Stable,High,0,Seborrheic Keratosis
+PT-0469,12,Female,I,Face/Neck,0,2,2,0,1,5.6,Raised/Plaque,6,Slow Growth,Moderate,1,Acne Vulgaris
+PT-0168,76,Female,I,Trunk,2,2,1,0,2,7.6,Raised/Plaque,3,Slow Growth,Moderate,1,Melanoma
+PT-0055,37,Female,IV,Arms/Hands,4,5,3,1,1,6.3,Flat,1,Fluctuating,Low,1,Eczema
+PT-0313,54,Male,II,Face/Neck,1,2,1,1,4,3.0,Nodular/Cystic,70,Slow Growth,Moderate,0,Basal Cell Carcinoma
+PT-0047,26,Male,II,Arms/Hands,4,3,5,1,1,24.7,Raised/Plaque,19,Slow Growth,Moderate,1,Eczema
+PT-0196,52,Female,I,Face/Neck,1,3,1,1,3,7.3,Flat,11,Rapid Growth,Moderate,1,Melanoma
+PT-0640,68,Female,I,Arms/Hands,0,0,0,0,0,1.6,Flat,64,Stable,Moderate,0,Healthy Skin
+PT-0532,57,Male,I,Arms/Hands,2,3,4,3,1,9.6,Raised/Plaque,6,Slow Growth,Low,0,Fungal Infection
+PT-0108,31,Male,III,Legs/Feet,1,4,4,1,2,27.8,Raised/Plaque,4,Fluctuating,Moderate,0,Psoriasis
+PT-0394,83,Female,II,Legs/Feet,0,1,4,0,0,15.6,Raised/Plaque,18,Stable,High,1,Seborrheic Keratosis
+PT-0498,42,Female,II,Arms/Hands,2,3,5,2,0,7.1,Raised/Plaque,1,Stable,Low,0,Fungal Infection
+PT-0332,50,Female,III,Trunk,1,0,3,0,0,13.7,Raised/Plaque,10,Rapid Growth,Moderate,0,Seborrheic Keratosis
+PT-0480,26,Female,II,Face/Neck,0,3,0,2,0,5.9,Flat,1,Fluctuating,High,0,Acne Vulgaris
+PT-0596,40,Male,III,Face/Neck,0,0,0,0,0,2.8,Flat,74,Stable,High,0,Healthy Skin
+PT-0297,56,Male,III,Face/Neck,1,3,1,0,5,12.1,Raised/Plaque,73,Stable,High,1,Basal Cell Carcinoma
+PT-0603,45,Female,III,Face/Neck,0,0,0,0,0,3.3,Flat,232,Stable,Moderate,1,Healthy Skin
+PT-0301,54,Male,I,Face/Neck,3,3,1,1,4,12.1,Flat,23,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0150,38,Female,V,Face/Neck,5,4,5,3,1,12.0,Raised/Plaque,57,Slow Growth,Low,1,Psoriasis
+PT-0125,14,Male,III,Arms/Hands,3,5,4,3,1,8.2,Raised/Plaque,55,Slow Growth,High,1,Psoriasis
+PT-0507,32,Female,III,Flexural Folds,4,3,4,1,0,4.4,Raised/Plaque,11,Slow Growth,Moderate,0,Fungal Infection
+PT-0551,33,Male,III,Arms/Hands,2,3,3,1,0,23.5,Raised/Plaque,8,Slow Growth,Low,0,Fungal Infection
+PT-0186,52,Female,III,Legs/Feet,0,2,2,1,3,16.3,Flat,11,Rapid Growth,High,0,Melanoma
+PT-0365,62,Female,II,Face/Neck,2,0,3,0,0,4.3,Raised/Plaque,17,Stable,Moderate,1,Seborrheic Keratosis
+PT-0342,62,Male,II,Arms/Hands,1,0,1,0,0,7.9,Nodular/Cystic,60,Slow Growth,Low,1,Seborrheic Keratosis
+PT-0631,30,Male,VI,Trunk,0,1,1,0,0,2.9,Raised/Plaque,146,Stable,Moderate,0,Healthy Skin
+PT-0590,32,Female,I,Trunk,0,0,0,0,0,3.7,Raised/Plaque,251,Stable,Low,0,Healthy Skin
+PT-0143,27,Female,I,Legs/Feet,2,3,5,2,1,26.9,Raised/Plaque,15,Slow Growth,High,1,Psoriasis
+PT-0142,54,Male,III,Legs/Feet,1,3,3,3,3,24.2,Raised/Plaque,16,Stable,Moderate,0,Psoriasis
+PT-0341,72,Male,III,Arms/Hands,1,2,4,0,1,8.2,Raised/Plaque,144,Stable,Moderate,0,Seborrheic Keratosis
+PT-0020,19,Female,IV,Legs/Feet,3,5,2,0,1,25.2,Flat,10,Fluctuating,Low,1,Eczema
+PT-0173,64,Male,I,Scalp,0,1,0,0,1,14.4,Nodular/Cystic,13,Slow Growth,Moderate,1,Melanoma
+PT-0518,35,Male,I,Arms/Hands,2,3,4,0,0,9.7,Flat,18,Rapid Growth,Low,0,Fungal Infection
+PT-0013,27,Male,I,Face/Neck,4,3,1,3,3,18.4,Flat,6,Fluctuating,Moderate,1,Eczema
+PT-0026,35,Male,IV,Face/Neck,4,4,4,1,1,22.2,Flat,24,Fluctuating,Moderate,1,Eczema
+PT-0495,27,Female,III,Arms/Hands,3,2,5,2,1,4.0,Raised/Plaque,5,Slow Growth,Low,0,Fungal Infection
+PT-0170,35,Male,II,Face/Neck,2,1,0,3,3,20.0,Nodular/Cystic,7,Slow Growth,High,1,Melanoma
+PT-0555,24,Male,III,Arms/Hands,3,3,4,3,0,20.7,Raised/Plaque,12,Slow Growth,Low,0,Fungal Infection
+PT-0508,21,Male,I,Trunk,4,3,3,0,1,14.4,Raised/Plaque,4,Slow Growth,High,0,Fungal Infection
+PT-0246,75,Female,II,Face/Neck,2,1,0,1,2,9.0,Raised/Plaque,46,Slow Growth,Moderate,0,Basal Cell Carcinoma
+PT-0371,60,Female,I,Trunk,0,1,2,1,1,13.4,Raised/Plaque,10,Slow Growth,Low,1,Seborrheic Keratosis
+PT-0273,63,Female,I,Face/Neck,0,3,2,0,1,5.1,Nodular/Cystic,86,Slow Growth,High,1,Basal Cell Carcinoma
+PT-0155,24,Female,III,Trunk,2,3,4,2,0,13.0,Raised/Plaque,42,Stable,High,0,Psoriasis
+PT-0127,45,Female,III,Legs/Feet,2,3,4,2,1,32.3,Raised/Plaque,4,Fluctuating,Low,1,Psoriasis
+PT-0575,36,Female,II,Arms/Hands,0,0,0,0,0,2.6,Flat,43,Stable,High,0,Healthy Skin
+PT-0288,61,Male,I,Legs/Feet,1,1,2,0,4,3.0,Raised/Plaque,6,Rapid Growth,High,1,Basal Cell Carcinoma
+PT-0114,25,Male,III,Scalp,1,5,5,1,3,13.4,Raised/Plaque,31,Slow Growth,Moderate,0,Psoriasis
+PT-0333,74,Male,III,Trunk,2,0,2,0,0,13.5,Raised/Plaque,35,Stable,Low,1,Seborrheic Keratosis
+PT-0174,66,Female,I,Trunk,3,0,0,1,5,11.0,Flat,36,Rapid Growth,High,0,Melanoma
+PT-0058,2,Male,II,Legs/Feet,4,3,1,3,1,15.5,Flat,20,Fluctuating,Moderate,1,Eczema
+PT-0500,24,Female,V,Trunk,4,4,4,1,1,14.4,Flat,6,Slow Growth,High,0,Fungal Infection
+PT-0223,67,Female,III,Arms/Hands,1,2,0,0,0,8.4,Raised/Plaque,7,Slow Growth,Moderate,0,Melanoma
+PT-0281,72,Female,VI,Face/Neck,0,2,2,0,2,9.7,Raised/Plaque,6,Stable,High,1,Basal Cell Carcinoma
+PT-0018,12,Male,I,Flexural Folds,3,3,4,2,2,6.4,Flat,1,Fluctuating,Moderate,1,Eczema
+PT-0350,53,Female,I,Trunk,1,0,3,0,2,11.5,Raised/Plaque,10,Stable,Low,1,Seborrheic Keratosis
+PT-0256,71,Male,III,Trunk,2,2,1,0,4,9.5,Nodular/Cystic,11,Rapid Growth,Moderate,1,Basal Cell Carcinoma
+PT-0357,38,Female,III,Face/Neck,1,2,5,0,0,11.6,Raised/Plaque,76,Stable,Moderate,0,Seborrheic Keratosis
+PT-0613,37,Female,I,Trunk,0,0,1,0,0,3.0,Raised/Plaque,217,Stable,Low,1,Healthy Skin
+PT-0191,50,Female,II,Face/Neck,3,0,1,0,3,9.9,Flat,2,Stable,Moderate,1,Melanoma
+PT-0478,21,Male,I,Face/Neck,1,3,1,2,3,1.7,Nodular/Cystic,10,Fluctuating,Low,0,Acne Vulgaris
+PT-0582,37,Male,III,Legs/Feet,0,0,0,0,0,2.8,Flat,73,Stable,Moderate,0,Healthy Skin
+PT-0320,41,Female,I,Face/Neck,0,2,0,1,3,9.7,Nodular/Cystic,6,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0095,46,Female,III,Trunk,2,3,4,1,1,11.9,Raised/Plaque,9,Slow Growth,High,1,Psoriasis
+PT-0181,75,Male,II,Trunk,1,0,0,0,2,4.0,Raised/Plaque,25,Rapid Growth,High,0,Melanoma
+PT-0302,53,Female,II,Face/Neck,3,2,1,0,2,7.6,Raised/Plaque,65,Slow Growth,Moderate,0,Basal Cell Carcinoma
+PT-0432,20,Male,III,Face/Neck,0,3,0,2,0,3.3,Nodular/Cystic,1,Fluctuating,High,0,Acne Vulgaris
+PT-0465,11,Male,VI,Face/Neck,2,2,0,2,2,7.9,Raised/Plaque,14,Stable,Low,1,Acne Vulgaris
+PT-0384,57,Male,III,Legs/Feet,2,0,2,0,0,14.4,Raised/Plaque,62,Rapid Growth,Moderate,1,Seborrheic Keratosis
+PT-0366,51,Male,I,Face/Neck,0,1,2,1,2,14.1,Raised/Plaque,13,Stable,Moderate,0,Seborrheic Keratosis
+PT-0006,18,Male,IV,Flexural Folds,5,4,5,1,1,13.6,Flat,1,Fluctuating,Low,1,Eczema
+PT-0046,12,Male,IV,Face/Neck,5,3,2,1,2,19.8,Raised/Plaque,18,Fluctuating,Low,0,Eczema
+PT-0345,46,Female,VI,Arms/Hands,1,0,2,0,0,14.5,Raised/Plaque,73,Slow Growth,Low,0,Seborrheic Keratosis
+PT-0588,40,Female,III,Legs/Feet,0,0,0,0,0,3.4,Flat,167,Stable,Low,0,Healthy Skin
+PT-0445,14,Female,III,Face/Neck,2,5,1,1,1,3.7,Raised/Plaque,25,Fluctuating,Moderate,1,Acne Vulgaris
+PT-0017,44,Female,III,Flexural Folds,4,4,3,0,0,15.0,Flat,10,Fluctuating,Low,1,Eczema
+PT-0049,20,Female,II,Flexural Folds,4,2,2,0,1,14.0,Raised/Plaque,39,Fluctuating,Moderate,1,Eczema
+PT-0619,69,Female,III,Face/Neck,0,0,0,0,0,6.0,Flat,20,Stable,Low,0,Healthy Skin
+PT-0585,53,Male,II,Arms/Hands,0,1,0,0,0,3.5,Flat,20,Stable,Low,0,Healthy Skin
+PT-0004,39,Female,V,Legs/Feet,3,2,3,1,0,8.7,Raised/Plaque,2,Fluctuating,Low,1,Eczema
+PT-0382,61,Female,III,Trunk,3,1,4,0,1,18.2,Raised/Plaque,10,Stable,Low,0,Seborrheic Keratosis
+PT-0353,45,Male,I,Trunk,0,0,3,0,0,6.8,Raised/Plaque,22,Stable,High,1,Seborrheic Keratosis
+PT-0317,60,Male,II,Face/Neck,0,1,1,0,3,11.0,Flat,59,Rapid Growth,Low,0,Basal Cell Carcinoma
+PT-0284,57,Male,I,Face/Neck,1,1,0,0,4,6.9,Nodular/Cystic,24,Slow Growth,Moderate,1,Basal Cell Carcinoma
+PT-0424,16,Male,III,Trunk,1,4,1,3,0,3.5,Nodular/Cystic,18,Rapid Growth,Moderate,1,Acne Vulgaris
+PT-0512,25,Female,II,Trunk,2,2,2,2,1,4.0,Raised/Plaque,1,Rapid Growth,Moderate,0,Fungal Infection
+PT-0354,62,Male,V,Trunk,1,2,3,0,0,6.5,Raised/Plaque,20,Rapid Growth,Low,0,Seborrheic Keratosis
+PT-0226,62,Male,I,Trunk,2,4,0,1,2,11.3,Raised/Plaque,2,Slow Growth,High,0,Melanoma
+PT-0027,19,Male,III,Face/Neck,4,4,3,2,1,5.3,Raised/Plaque,4,Fluctuating,Low,1,Eczema
+PT-0549,31,Female,III,Legs/Feet,2,4,4,1,0,9.9,Raised/Plaque,2,Slow Growth,Moderate,0,Fungal Infection
+PT-0264,56,Male,III,Face/Neck,0,1,2,0,2,10.1,Raised/Plaque,18,Rapid Growth,Moderate,1,Basal Cell Carcinoma
+PT-0051,59,Male,I,Flexural Folds,3,5,1,0,0,6.9,Flat,31,Fluctuating,Low,0,Eczema
+PT-0230,44,Male,III,Legs/Feet,0,3,0,0,1,4.0,Raised/Plaque,25,Slow Growth,Moderate,0,Melanoma
+PT-0038,23,Female,III,Flexural Folds,3,3,5,3,1,23.5,Flat,5,Fluctuating,Moderate,1,Eczema
+PT-0158,57,Female,II,Arms/Hands,1,4,3,0,3,15.4,Raised/Plaque,8,Rapid Growth,Moderate,1,Psoriasis
+PT-0238,45,Female,I,Trunk,2,2,1,1,1,4.1,Raised/Plaque,27,Slow Growth,Low,0,Melanoma
+PT-0614,43,Male,II,Legs/Feet,0,0,0,0,0,6.0,Flat,110,Stable,Moderate,0,Healthy Skin
+PT-0176,68,Male,III,Face/Neck,0,0,2,2,3,9.9,Raised/Plaque,11,Slow Growth,High,1,Melanoma
+PT-0538,54,Female,II,Trunk,2,2,3,2,0,7.8,Nodular/Cystic,1,Slow Growth,Moderate,0,Fungal Infection
+PT-0408,16,Female,II,Face/Neck,2,3,0,1,0,5.6,Nodular/Cystic,37,Rapid Growth,Moderate,1,Acne Vulgaris
+PT-0195,72,Female,III,Legs/Feet,1,0,1,0,4,10.8,Nodular/Cystic,15,Slow Growth,Moderate,1,Melanoma
+PT-0540,38,Female,III,Arms/Hands,2,2,5,1,2,12.0,Raised/Plaque,2,Fluctuating,Moderate,0,Fungal Infection
+PT-0381,72,Female,II,Face/Neck,0,0,1,0,0,10.4,Raised/Plaque,10,Stable,Moderate,0,Seborrheic Keratosis
+PT-0618,14,Female,III,Legs/Feet,0,0,0,0,0,4.4,Raised/Plaque,201,Stable,Low,1,Healthy Skin
+PT-0546,16,Female,III,Flexural Folds,3,3,4,0,1,32.0,Raised/Plaque,13,Rapid Growth,Moderate,1,Fungal Infection
+PT-0068,28,Female,III,Scalp,3,4,2,1,1,17.0,Raised/Plaque,28,Fluctuating,Low,0,Eczema
+PT-0375,85,Male,II,Trunk,1,1,3,1,1,9.4,Raised/Plaque,47,Stable,Low,0,Seborrheic Keratosis
+PT-0169,38,Female,II,Legs/Feet,0,2,2,2,2,11.1,Raised/Plaque,25,Slow Growth,Moderate,1,Melanoma
+PT-0612,73,Female,IV,Trunk,0,0,0,0,0,2.9,Raised/Plaque,20,Stable,Moderate,0,Healthy Skin
+PT-0163,62,Male,I,Trunk,1,1,0,1,1,11.1,Flat,39,Rapid Growth,Moderate,1,Melanoma
+PT-0310,71,Female,II,Scalp,2,2,2,0,2,4.2,Nodular/Cystic,18,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0194,84,Female,I,Trunk,1,2,0,1,2,6.4,Raised/Plaque,23,Rapid Growth,Moderate,0,Melanoma
+PT-0406,20,Female,I,Face/Neck,3,2,2,0,2,3.7,Nodular/Cystic,1,Fluctuating,High,0,Acne Vulgaris
+PT-0547,30,Male,I,Flexural Folds,5,4,3,1,0,14.9,Raised/Plaque,2,Slow Growth,Moderate,0,Fungal Infection
+PT-0153,39,Male,II,Trunk,2,5,4,2,2,15.8,Raised/Plaque,8,Rapid Growth,High,1,Psoriasis
+PT-0383,62,Female,II,Scalp,0,0,2,1,0,11.8,Raised/Plaque,57,Stable,Low,0,Seborrheic Keratosis
+PT-0427,18,Male,I,Face/Neck,2,3,0,0,0,3.8,Raised/Plaque,4,Fluctuating,Low,1,Acne Vulgaris
+PT-0227,37,Male,II,Trunk,2,2,1,0,2,14.1,Raised/Plaque,5,Slow Growth,Moderate,0,Melanoma
+PT-0389,91,Male,I,Arms/Hands,2,0,4,0,0,3.8,Raised/Plaque,71,Stable,Moderate,0,Seborrheic Keratosis
+PT-0513,70,Male,III,Legs/Feet,3,2,3,1,0,9.0,Raised/Plaque,4,Slow Growth,Low,1,Fungal Infection
+PT-0104,37,Male,II,Legs/Feet,3,3,4,2,0,34.5,Raised/Plaque,4,Slow Growth,Low,0,Psoriasis
+PT-0458,15,Male,IV,Face/Neck,0,4,0,2,0,3.4,Nodular/Cystic,4,Fluctuating,High,0,Acne Vulgaris
+PT-0075,58,Male,II,Flexural Folds,3,4,3,2,1,12.4,Nodular/Cystic,2,Fluctuating,Moderate,1,Eczema
+PT-0496,15,Female,III,Arms/Hands,4,2,3,2,0,14.9,Raised/Plaque,5,Slow Growth,Moderate,0,Fungal Infection
+PT-0617,23,Male,III,Legs/Feet,0,0,0,0,0,1.0,Flat,40,Stable,Moderate,0,Healthy Skin
+PT-0120,41,Male,IV,Face/Neck,3,4,5,2,1,13.2,Raised/Plaque,45,Fluctuating,Low,1,Psoriasis
+PT-0454,19,Male,I,Arms/Hands,3,4,0,2,2,5.7,Raised/Plaque,5,Fluctuating,Low,1,Acne Vulgaris
+PT-0481,38,Female,II,Legs/Feet,3,3,3,1,0,10.4,Raised/Plaque,6,Slow Growth,High,0,Fungal Infection
+PT-0602,23,Male,IV,Face/Neck,0,0,0,0,0,3.5,Raised/Plaque,61,Stable,Moderate,0,Healthy Skin
+PT-0208,88,Female,II,Trunk,0,1,2,1,3,12.7,Flat,47,Rapid Growth,Moderate,1,Melanoma
+PT-0579,17,Male,III,Legs/Feet,0,0,0,0,0,1.8,Raised/Plaque,22,Stable,Low,1,Healthy Skin
+PT-0413,26,Female,III,Face/Neck,0,3,1,3,0,7.0,Nodular/Cystic,20,Stable,Low,1,Acne Vulgaris
+PT-0400,77,Female,I,Trunk,1,0,2,1,0,5.9,Raised/Plaque,21,Stable,Low,0,Seborrheic Keratosis
+PT-0474,13,Female,IV,Face/Neck,0,5,1,3,1,5.0,Raised/Plaque,3,Rapid Growth,High,0,Acne Vulgaris
+PT-0009,23,Male,II,Arms/Hands,2,3,2,1,1,16.9,Flat,2,Fluctuating,High,0,Eczema
+PT-0443,19,Male,IV,Face/Neck,2,2,0,3,1,3.5,Nodular/Cystic,10,Fluctuating,Low,0,Acne Vulgaris
+PT-0037,24,Female,III,Face/Neck,4,5,1,1,0,12.9,Raised/Plaque,3,Rapid Growth,Low,1,Eczema
+PT-0140,12,Male,II,Scalp,4,5,5,0,2,24.1,Raised/Plaque,45,Stable,High,0,Psoriasis
+PT-0254,73,Female,III,Face/Neck,3,1,0,2,2,6.7,Raised/Plaque,6,Slow Growth,Moderate,0,Basal Cell Carcinoma
+PT-0304,56,Male,I,Trunk,1,3,0,1,2,15.5,Nodular/Cystic,51,Slow Growth,Moderate,1,Basal Cell Carcinoma
+PT-0450,24,Male,II,Face/Neck,2,3,0,2,1,7.7,Nodular/Cystic,30,Rapid Growth,High,1,Acne Vulgaris
+PT-0457,22,Male,III,Face/Neck,1,4,1,2,0,4.5,Raised/Plaque,18,Rapid Growth,Moderate,1,Acne Vulgaris
+PT-0369,44,Male,I,Arms/Hands,0,0,3,0,0,5.0,Nodular/Cystic,91,Stable,Moderate,1,Seborrheic Keratosis
+PT-0060,25,Male,III,Trunk,4,3,3,1,3,13.5,Raised/Plaque,6,Fluctuating,Low,1,Eczema
+PT-0112,19,Male,III,Legs/Feet,3,5,4,2,1,17.8,Raised/Plaque,45,Fluctuating,Low,0,Psoriasis
+PT-0621,14,Male,II,Arms/Hands,0,0,0,0,0,4.5,Raised/Plaque,20,Stable,Low,0,Healthy Skin
+PT-0425,11,Female,II,Face/Neck,1,3,1,1,1,4.6,Nodular/Cystic,3,Fluctuating,Low,1,Acne Vulgaris
+PT-0441,23,Male,VI,Face/Neck,1,2,0,2,0,5.5,Raised/Plaque,6,Rapid Growth,High,1,Acne Vulgaris
+PT-0263,50,Female,II,Face/Neck,2,2,2,0,4,3.1,Flat,7,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0534,35,Female,III,Trunk,3,2,2,2,0,22.6,Raised/Plaque,4,Slow Growth,Moderate,0,Fungal Infection
+PT-0298,62,Male,II,Face/Neck,1,4,0,1,4,3.0,Nodular/Cystic,39,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0151,33,Male,I,Legs/Feet,3,4,5,2,1,23.6,Raised/Plaque,65,Rapid Growth,Low,1,Psoriasis
+PT-0267,76,Male,II,Face/Neck,0,3,3,1,4,7.1,Raised/Plaque,10,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0553,24,Male,IV,Legs/Feet,2,2,5,1,1,18.9,Nodular/Cystic,2,Slow Growth,Moderate,0,Fungal Infection
+PT-0360,60,Male,III,Trunk,0,0,1,0,0,7.3,Flat,23,Stable,Moderate,0,Seborrheic Keratosis
+PT-0592,43,Female,III,Trunk,0,0,1,0,0,3.9,Flat,124,Stable,Low,1,Healthy Skin
+PT-0039,24,Male,II,Face/Neck,4,3,2,1,1,9.0,Raised/Plaque,1,Fluctuating,Moderate,1,Eczema
+PT-0586,48,Female,IV,Arms/Hands,0,0,0,0,0,3.4,Flat,82,Stable,Low,0,Healthy Skin
+PT-0308,60,Male,II,Face/Neck,0,2,1,0,3,8.2,Flat,27,Rapid Growth,Moderate,1,Basal Cell Carcinoma
+PT-0199,60,Female,II,Trunk,2,3,1,3,4,9.1,Nodular/Cystic,7,Slow Growth,Moderate,0,Melanoma
+PT-0352,72,Male,III,Arms/Hands,2,2,1,0,1,14.1,Raised/Plaque,16,Stable,Moderate,0,Seborrheic Keratosis
+PT-0417,12,Female,IV,Face/Neck,3,5,0,3,2,7.2,Raised/Plaque,37,Rapid Growth,Moderate,0,Acne Vulgaris
+PT-0147,46,Female,III,Legs/Feet,3,4,3,2,1,5.8,Nodular/Cystic,84,Fluctuating,Moderate,1,Psoriasis
+PT-0593,34,Female,I,Trunk,0,0,0,0,0,4.4,Raised/Plaque,183,Stable,Low,0,Healthy Skin
+PT-0449,23,Female,I,Face/Neck,0,3,1,1,2,1.5,Raised/Plaque,5,Slow Growth,High,1,Acne Vulgaris
+PT-0605,48,Male,I,Trunk,0,0,0,0,0,1.0,Flat,64,Stable,Low,0,Healthy Skin
+PT-0148,45,Male,III,Trunk,2,5,4,1,1,21.1,Raised/Plaque,31,Slow Growth,Low,0,Psoriasis
+PT-0560,27,Male,II,Arms/Hands,2,3,4,1,0,5.2,Raised/Plaque,6,Slow Growth,Moderate,0,Fungal Infection
+PT-0349,53,Female,II,Trunk,3,0,4,0,0,21.5,Nodular/Cystic,96,Stable,Moderate,0,Seborrheic Keratosis
+PT-0326,58,Female,II,Arms/Hands,0,0,3,1,1,16.2,Nodular/Cystic,10,Slow Growth,Moderate,0,Seborrheic Keratosis
+PT-0629,29,Female,I,Trunk,0,1,0,0,0,3.9,Flat,20,Stable,Low,1,Healthy Skin
+PT-0124,43,Female,III,Face/Neck,2,3,4,3,0,18.0,Raised/Plaque,60,Slow Growth,Moderate,1,Psoriasis
+PT-0539,34,Female,V,Trunk,5,4,2,1,1,10.1,Raised/Plaque,1,Rapid Growth,Low,0,Fungal Infection
+PT-0097,65,Male,II,Legs/Feet,2,4,3,2,2,18.6,Raised/Plaque,4,Fluctuating,Low,1,Psoriasis
+PT-0144,24,Female,I,Arms/Hands,2,4,4,2,0,15.1,Flat,49,Slow Growth,Low,1,Psoriasis
+PT-0240,41,Female,I,Arms/Hands,1,1,2,2,4,10.4,Raised/Plaque,15,Rapid Growth,Moderate,0,Melanoma
+PT-0395,56,Female,I,Trunk,2,0,2,0,0,11.8,Raised/Plaque,25,Slow Growth,High,1,Seborrheic Keratosis
+PT-0470,20,Female,II,Scalp,1,3,3,2,1,4.7,Flat,29,Rapid Growth,Low,1,Acne Vulgaris
+PT-0098,60,Female,III,Face/Neck,1,3,4,2,1,23.7,Raised/Plaque,17,Slow Growth,Moderate,1,Psoriasis
+PT-0372,66,Female,II,Scalp,1,0,1,1,2,14.4,Raised/Plaque,17,Stable,High,0,Seborrheic Keratosis
+PT-0325,47,Male,II,Arms/Hands,0,1,2,1,0,7.2,Raised/Plaque,10,Stable,Moderate,1,Seborrheic Keratosis
+PT-0280,73,Male,I,Trunk,0,4,2,0,3,6.3,Nodular/Cystic,19,Slow Growth,Moderate,1,Basal Cell Carcinoma
+PT-0294,67,Female,III,Face/Neck,1,3,1,1,3,6.0,Nodular/Cystic,21,Slow Growth,Moderate,0,Basal Cell Carcinoma
+PT-0255,73,Female,II,Face/Neck,1,2,2,1,2,7.3,Raised/Plaque,6,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0401,13,Female,I,Face/Neck,0,4,0,2,1,2.9,Nodular/Cystic,14,Slow Growth,Moderate,0,Acne Vulgaris
+PT-0123,32,Female,III,Trunk,2,3,4,3,1,6.4,Raised/Plaque,74,Fluctuating,Low,1,Psoriasis
+PT-0184,34,Female,I,Face/Neck,0,1,1,1,0,7.7,Raised/Plaque,30,Stable,High,1,Melanoma
+PT-0203,49,Female,II,Face/Neck,2,3,0,1,3,9.1,Flat,2,Slow Growth,High,0,Melanoma
+PT-0324,56,Female,I,Trunk,0,0,4,0,0,3.4,Raised/Plaque,224,Rapid Growth,High,0,Seborrheic Keratosis
+PT-0247,48,Female,I,Face/Neck,0,3,4,1,2,13.0,Raised/Plaque,9,Stable,Moderate,0,Basal Cell Carcinoma
+PT-0416,15,Male,I,Face/Neck,1,5,1,3,0,4.2,Nodular/Cystic,6,Slow Growth,Moderate,0,Acne Vulgaris
+PT-0491,29,Female,IV,Legs/Feet,3,3,3,1,0,8.7,Raised/Plaque,3,Slow Growth,Low,0,Fungal Infection
+PT-0576,32,Male,III,Trunk,0,0,0,0,0,4.1,Flat,113,Stable,Low,0,Healthy Skin
+PT-0531,37,Female,V,Trunk,4,1,4,1,0,21.9,Raised/Plaque,5,Slow Growth,Low,0,Fungal Infection
+PT-0482,27,Male,V,Trunk,4,1,4,0,0,4.0,Raised/Plaque,19,Slow Growth,Moderate,0,Fungal Infection
+PT-0564,23,Female,III,Arms/Hands,0,0,0,0,0,5.7,Flat,35,Stable,High,0,Healthy Skin
+PT-0544,19,Male,IV,Legs/Feet,3,3,3,1,1,22.3,Raised/Plaque,7,Stable,High,1,Fungal Infection
+PT-0126,43,Male,VI,Trunk,2,4,4,3,1,8.7,Raised/Plaque,4,Fluctuating,High,1,Psoriasis
+PT-0403,14,Female,II,Face/Neck,0,3,0,1,1,3.8,Raised/Plaque,7,Fluctuating,Moderate,1,Acne Vulgaris
+PT-0501,29,Female,IV,Flexural Folds,4,2,2,0,0,11.9,Flat,12,Slow Growth,Low,0,Fungal Infection
+PT-0522,9,Male,I,Trunk,4,2,4,0,1,26.5,Raised/Plaque,5,Slow Growth,Low,1,Fungal Infection
+PT-0224,63,Male,III,Face/Neck,2,4,1,0,3,4.0,Raised/Plaque,4,Slow Growth,High,1,Melanoma
+PT-0343,78,Male,I,Arms/Hands,0,1,1,1,0,7.9,Raised/Plaque,250,Stable,Low,1,Seborrheic Keratosis
+PT-0054,10,Male,III,Arms/Hands,3,3,4,0,2,5.5,Raised/Plaque,12,Fluctuating,Low,1,Eczema
+PT-0220,49,Female,II,Legs/Feet,1,1,3,1,1,4.7,Flat,78,Rapid Growth,High,0,Melanoma
+PT-0130,60,Female,I,Trunk,2,4,4,3,3,26.1,Raised/Plaque,12,Slow Growth,Low,0,Psoriasis
+PT-0580,48,Male,I,Scalp,0,0,0,0,0,2.3,Flat,20,Stable,Moderate,0,Healthy Skin
+PT-0533,11,Male,II,Trunk,4,1,3,0,0,27.4,Raised/Plaque,5,Slow Growth,Low,0,Fungal Infection
+PT-0187,66,Male,II,Arms/Hands,1,4,0,2,1,4.0,Raised/Plaque,66,Slow Growth,High,0,Melanoma
+PT-0583,19,Female,IV,Trunk,0,0,0,0,0,2.3,Flat,91,Stable,Moderate,0,Healthy Skin
+PT-0440,23,Male,II,Face/Neck,1,2,0,3,2,7.4,Raised/Plaque,14,Slow Growth,Moderate,1,Acne Vulgaris
+PT-0464,24,Female,III,Face/Neck,2,4,1,0,0,1.5,Raised/Plaque,2,Slow Growth,Low,0,Acne Vulgaris
+PT-0101,49,Female,II,Arms/Hands,2,3,4,2,1,22.3,Raised/Plaque,5,Stable,Moderate,1,Psoriasis
+PT-0611,54,Female,V,Legs/Feet,0,0,0,0,0,2.0,Flat,43,Stable,High,0,Healthy Skin
+PT-0387,61,Female,I,Arms/Hands,2,0,2,0,0,7.1,Raised/Plaque,48,Slow Growth,High,0,Seborrheic Keratosis
+PT-0620,28,Female,III,Arms/Hands,0,0,0,0,0,4.2,Flat,250,Stable,Moderate,0,Healthy Skin
+PT-0295,66,Male,I,Face/Neck,2,2,3,0,1,8.2,Nodular/Cystic,10,Slow Growth,Moderate,0,Basal Cell Carcinoma
+PT-0268,89,Male,I,Face/Neck,2,1,1,0,2,7.8,Nodular/Cystic,28,Slow Growth,High,1,Basal Cell Carcinoma
+PT-0052,26,Female,II,Face/Neck,4,3,3,2,1,9.6,Raised/Plaque,1,Slow Growth,Moderate,0,Eczema
+PT-0442,17,Female,II,Trunk,0,3,3,2,0,3.0,Raised/Plaque,8,Fluctuating,Moderate,1,Acne Vulgaris
+PT-0487,36,Male,III,Trunk,2,4,3,0,0,27.7,Raised/Plaque,5,Slow Growth,Moderate,0,Fungal Infection
+PT-0113,45,Female,III,Legs/Feet,1,4,3,2,3,6.4,Raised/Plaque,12,Fluctuating,High,0,Psoriasis
+PT-0180,68,Female,II,Arms/Hands,0,2,3,0,2,7.4,Raised/Plaque,13,Rapid Growth,Low,0,Melanoma
+PT-0494,17,Female,IV,Scalp,3,2,4,2,0,16.5,Raised/Plaque,1,Slow Growth,Low,0,Fungal Infection
+PT-0552,32,Male,II,Trunk,4,2,4,0,1,6.1,Raised/Plaque,1,Rapid Growth,Moderate,0,Fungal Infection
+PT-0523,47,Male,II,Arms/Hands,2,2,2,3,0,19.8,Flat,4,Slow Growth,High,0,Fungal Infection
+PT-0517,24,Male,II,Trunk,2,2,4,0,0,14.7,Flat,1,Slow Growth,Moderate,0,Fungal Infection
+PT-0374,59,Male,I,Arms/Hands,2,0,1,0,0,14.9,Raised/Plaque,28,Stable,Moderate,1,Seborrheic Keratosis
+PT-0315,52,Male,I,Face/Neck,2,2,0,0,5,7.4,Nodular/Cystic,23,Slow Growth,High,1,Basal Cell Carcinoma
+PT-0463,12,Male,V,Face/Neck,1,5,0,1,3,4.6,Raised/Plaque,1,Fluctuating,High,1,Acne Vulgaris
+PT-0152,59,Male,II,Arms/Hands,2,4,4,2,1,22.9,Raised/Plaque,4,Slow Growth,Moderate,1,Psoriasis
+PT-0172,61,Female,III,Trunk,3,2,0,1,3,13.7,Raised/Plaque,13,Stable,Low,1,Melanoma
+PT-0234,49,Female,I,Legs/Feet,2,0,0,0,0,14.5,Flat,4,Rapid Growth,High,1,Melanoma
+PT-0307,71,Female,I,Face/Neck,2,2,3,1,1,7.7,Nodular/Cystic,6,Rapid Growth,Moderate,0,Basal Cell Carcinoma
+PT-0502,8,Female,VI,Face/Neck,3,3,4,2,0,16.2,Raised/Plaque,1,Slow Growth,High,0,Fungal Infection
+PT-0165,66,Male,II,Trunk,1,1,1,0,1,11.3,Flat,77,Slow Growth,High,1,Melanoma
+PT-0318,64,Female,II,Face/Neck,0,1,2,1,5,16.0,Raised/Plaque,6,Rapid Growth,High,0,Basal Cell Carcinoma
+PT-0137,38,Male,I,Legs/Feet,1,3,4,2,1,26.7,Raised/Plaque,25,Slow Growth,High,0,Psoriasis
+PT-0411,11,Male,IV,Face/Neck,1,4,0,2,2,4.4,Nodular/Cystic,2,Slow Growth,High,0,Acne Vulgaris
+PT-0569,36,Male,I,Arms/Hands,0,0,0,0,0,1.0,Flat,24,Stable,Low,1,Healthy Skin
+PT-0198,68,Female,II,Trunk,3,2,2,1,1,9.7,Raised/Plaque,23,Rapid Growth,Moderate,0,Melanoma
+PT-0359,61,Female,V,Trunk,2,2,2,0,0,14.4,Raised/Plaque,31,Stable,Moderate,0,Seborrheic Keratosis
+PT-0259,75,Female,II,Arms/Hands,0,3,2,0,5,8.2,Nodular/Cystic,8,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0233,53,Female,I,Face/Neck,1,3,0,2,1,14.9,Raised/Plaque,80,Stable,High,1,Melanoma
+PT-0525,34,Female,IV,Flexural Folds,5,2,5,3,1,19.6,Flat,6,Stable,High,0,Fungal Infection
+PT-0116,32,Male,II,Trunk,3,3,4,3,3,9.4,Raised/Plaque,4,Slow Growth,High,0,Psoriasis
+PT-0121,22,Male,VI,Legs/Feet,5,3,4,1,1,23.1,Raised/Plaque,25,Stable,High,1,Psoriasis
+PT-0609,64,Female,IV,Face/Neck,0,0,0,0,0,2.6,Flat,144,Stable,Moderate,0,Healthy Skin
+PT-0283,60,Female,V,Face/Neck,2,2,0,1,2,3.0,Nodular/Cystic,14,Slow Growth,Low,0,Basal Cell Carcinoma
+PT-0377,57,Female,I,Trunk,2,1,3,0,0,12.5,Nodular/Cystic,46,Stable,High,1,Seborrheic Keratosis
+PT-0385,61,Female,I,Trunk,0,3,2,0,0,3.4,Raised/Plaque,55,Stable,Moderate,0,Seborrheic Keratosis
+PT-0225,67,Male,IV,Legs/Feet,3,4,2,0,4,11.4,Flat,20,Rapid Growth,Low,1,Melanoma
+PT-0607,31,Female,V,Arms/Hands,0,0,0,0,0,1.0,Flat,32,Stable,Low,0,Healthy Skin
+PT-0520,23,Female,II,Legs/Feet,2,2,3,2,1,28.3,Raised/Plaque,4,Slow Growth,Low,0,Fungal Infection
+PT-0473,20,Female,III,Face/Neck,1,3,1,3,0,5.8,Flat,25,Rapid Growth,Moderate,0,Acne Vulgaris
+PT-0348,65,Male,II,Arms/Hands,3,0,3,0,0,10.9,Raised/Plaque,59,Slow Growth,Moderate,0,Seborrheic Keratosis
+PT-0530,55,Male,II,Flexural Folds,3,3,4,2,0,18.9,Raised/Plaque,1,Slow Growth,Low,0,Fungal Infection
+PT-0506,46,Female,II,Arms/Hands,4,2,2,0,0,16.4,Raised/Plaque,8,Rapid Growth,Low,1,Fungal Infection
+PT-0128,45,Female,II,Legs/Feet,2,3,4,3,1,4.0,Raised/Plaque,14,Stable,Moderate,1,Psoriasis
+PT-0630,48,Male,II,Legs/Feet,0,1,0,0,0,4.3,Flat,212,Stable,High,1,Healthy Skin
+PT-0446,16,Male,II,Face/Neck,1,3,1,1,1,4.4,Raised/Plaque,15,Fluctuating,Moderate,1,Acne Vulgaris
+PT-0286,57,Male,III,Face/Neck,2,2,0,0,2,3.0,Raised/Plaque,28,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0591,23,Male,II,Arms/Hands,0,0,0,0,0,5.4,Flat,20,Stable,Moderate,1,Healthy Skin
+PT-0541,34,Female,II,Legs/Feet,5,4,4,1,0,5.4,Flat,19,Slow Growth,Moderate,0,Fungal Infection
+PT-0086,28,Female,III,Face/Neck,3,4,3,3,0,31.0,Raised/Plaque,4,Rapid Growth,High,0,Psoriasis
+PT-0243,54,Female,I,Face/Neck,1,3,1,0,1,7.3,Nodular/Cystic,6,Stable,Moderate,0,Basal Cell Carcinoma
+PT-0160,30,Male,II,Trunk,1,3,4,0,2,4.0,Raised/Plaque,4,Slow Growth,High,1,Psoriasis
+PT-0036,24,Male,II,Flexural Folds,3,4,2,0,4,12.1,Raised/Plaque,9,Fluctuating,Low,0,Eczema
+PT-0171,74,Female,II,Trunk,1,2,0,0,1,8.0,Flat,2,Rapid Growth,High,0,Melanoma
+PT-0543,50,Female,II,Flexural Folds,4,3,4,1,0,8.0,Raised/Plaque,1,Slow Growth,Low,0,Fungal Infection
+PT-0535,8,Female,IV,Arms/Hands,2,3,4,1,0,18.3,Raised/Plaque,1,Slow Growth,High,0,Fungal Infection
+PT-0601,56,Female,II,Trunk,0,0,0,0,0,2.2,Flat,109,Stable,Low,0,Healthy Skin
+PT-0096,42,Female,II,Arms/Hands,3,5,4,4,1,12.6,Nodular/Cystic,6,Rapid Growth,Low,1,Psoriasis
+PT-0241,75,Male,I,Legs/Feet,1,3,2,2,3,10.3,Raised/Plaque,72,Slow Growth,Moderate,1,Basal Cell Carcinoma
+PT-0461,16,Female,II,Face/Neck,0,3,0,2,0,3.4,Flat,3,Stable,Low,1,Acne Vulgaris
+PT-0557,40,Female,II,Trunk,2,1,3,0,0,6.4,Raised/Plaque,8,Slow Growth,Moderate,0,Fungal Infection
+PT-0207,68,Male,I,Face/Neck,2,2,2,2,3,5.6,Raised/Plaque,4,Rapid Growth,Moderate,1,Melanoma
+PT-0393,54,Female,II,Trunk,1,2,3,0,0,11.4,Raised/Plaque,31,Stable,Moderate,0,Seborrheic Keratosis
+PT-0398,77,Female,III,Trunk,0,0,5,0,1,4.6,Raised/Plaque,116,Stable,Low,0,Seborrheic Keratosis
+PT-0536,42,Male,I,Arms/Hands,4,3,4,1,0,15.4,Raised/Plaque,5,Fluctuating,High,0,Fungal Infection
+PT-0218,37,Male,I,Trunk,4,2,1,2,2,9.5,Flat,19,Rapid Growth,High,0,Melanoma
+PT-0005,32,Female,IV,Flexural Folds,4,3,2,0,3,12.9,Raised/Plaque,20,Fluctuating,High,1,Eczema
+PT-0568,56,Male,IV,Face/Neck,0,0,0,0,0,3.4,Flat,259,Stable,Low,0,Healthy Skin
+PT-0099,45,Female,IV,Trunk,2,4,5,3,2,13.9,Raised/Plaque,6,Rapid Growth,Low,1,Psoriasis
+PT-0407,14,Female,I,Face/Neck,0,3,1,2,0,5.8,Raised/Plaque,2,Slow Growth,Moderate,0,Acne Vulgaris
+PT-0503,15,Male,II,Arms/Hands,3,2,3,2,0,8.9,Raised/Plaque,7,Slow Growth,Low,0,Fungal Infection
+PT-0048,32,Male,IV,Flexural Folds,4,4,5,2,1,13.2,Raised/Plaque,25,Stable,Low,0,Eczema
+PT-0033,2,Male,II,Flexural Folds,5,3,1,1,3,19.9,Raised/Plaque,2,Fluctuating,Moderate,0,Eczema
+PT-0201,37,Female,I,Face/Neck,3,0,2,0,3,13.7,Nodular/Cystic,34,Slow Growth,Low,1,Melanoma
+PT-0135,51,Female,II,Arms/Hands,5,5,4,3,2,34.8,Raised/Plaque,31,Fluctuating,Low,1,Psoriasis
+PT-0028,12,Male,V,Legs/Feet,4,3,5,2,1,25.2,Raised/Plaque,14,Fluctuating,Low,0,Eczema
+PT-0559,41,Female,II,Trunk,2,4,3,0,0,13.2,Raised/Plaque,3,Stable,High,0,Fungal Infection
+PT-0231,40,Male,III,Trunk,1,2,0,1,2,15.0,Raised/Plaque,33,Rapid Growth,High,0,Melanoma
+PT-0490,68,Male,VI,Flexural Folds,4,1,3,2,0,15.1,Raised/Plaque,1,Slow Growth,Moderate,1,Fungal Infection
+PT-0379,63,Male,II,Face/Neck,2,0,0,0,1,5.1,Raised/Plaque,10,Stable,High,1,Seborrheic Keratosis
+PT-0289,49,Female,II,Face/Neck,0,2,0,0,4,7.0,Raised/Plaque,12,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0419,16,Female,III,Face/Neck,1,2,1,1,0,7.8,Flat,9,Slow Growth,Moderate,1,Acne Vulgaris
+PT-0392,59,Female,I,Face/Neck,2,1,3,0,0,12.6,Flat,10,Slow Growth,Low,0,Seborrheic Keratosis
+PT-0499,29,Male,III,Trunk,3,2,2,1,0,4.0,Raised/Plaque,6,Slow Growth,Low,0,Fungal Infection
+PT-0139,55,Female,V,Legs/Feet,2,4,4,1,2,11.3,Raised/Plaque,4,Slow Growth,Moderate,0,Psoriasis
+PT-0063,19,Male,II,Arms/Hands,3,2,1,1,2,13.0,Raised/Plaque,46,Fluctuating,Moderate,0,Eczema
+PT-0472,23,Male,IV,Trunk,3,3,1,3,0,2.6,Raised/Plaque,1,Slow Growth,Low,1,Acne Vulgaris
+PT-0129,33,Male,II,Arms/Hands,2,4,5,0,3,17.2,Nodular/Cystic,35,Stable,Moderate,0,Psoriasis
+PT-0623,31,Male,VI,Arms/Hands,1,0,0,0,0,3.1,Flat,63,Stable,High,1,Healthy Skin
+PT-0521,26,Female,III,Trunk,5,2,3,3,0,14.1,Nodular/Cystic,6,Rapid Growth,Moderate,0,Fungal Infection
+PT-0065,18,Female,IV,Flexural Folds,3,4,2,1,1,28.1,Raised/Plaque,1,Fluctuating,Low,0,Eczema
+PT-0015,24,Male,I,Flexural Folds,4,3,3,1,2,20.3,Raised/Plaque,2,Fluctuating,High,1,Eczema
+PT-0157,41,Male,II,Legs/Feet,5,4,4,2,1,9.6,Raised/Plaque,53,Rapid Growth,Low,0,Psoriasis
+PT-0041,27,Male,II,Face/Neck,2,2,3,0,2,30.7,Flat,6,Slow Growth,Low,1,Eczema
+PT-0493,56,Female,III,Scalp,3,4,3,2,0,4.0,Raised/Plaque,10,Slow Growth,Low,0,Fungal Infection
+PT-0380,72,Female,II,Trunk,0,0,3,0,0,10.3,Raised/Plaque,10,Slow Growth,Moderate,0,Seborrheic Keratosis
+PT-0188,29,Male,I,Trunk,0,2,2,1,3,8.0,Raised/Plaque,25,Slow Growth,Moderate,0,Melanoma
+PT-0217,47,Female,III,Trunk,0,4,1,1,1,17.3,Nodular/Cystic,35,Slow Growth,High,0,Melanoma
+PT-0053,19,Female,II,Flexural Folds,4,4,3,3,0,10.1,Raised/Plaque,1,Stable,Low,0,Eczema
+PT-0338,51,Male,III,Trunk,0,1,3,0,1,11.4,Raised/Plaque,35,Stable,High,0,Seborrheic Keratosis
+PT-0296,73,Male,I,Scalp,1,1,1,2,3,5.5,Nodular/Cystic,47,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0252,52,Male,II,Trunk,2,1,3,0,1,3.9,Nodular/Cystic,10,Slow Growth,High,1,Basal Cell Carcinoma
+PT-0462,22,Male,III,Face/Neck,0,4,0,0,1,7.3,Nodular/Cystic,40,Rapid Growth,Moderate,0,Acne Vulgaris
+PT-0456,18,Male,II,Face/Neck,0,3,1,3,1,4.7,Nodular/Cystic,1,Fluctuating,High,0,Acne Vulgaris
+PT-0638,32,Male,VI,Trunk,0,0,0,0,0,1.0,Flat,144,Stable,Moderate,0,Healthy Skin
+PT-0270,54,Male,II,Face/Neck,0,2,0,0,4,12.1,Nodular/Cystic,97,Stable,Moderate,1,Basal Cell Carcinoma
+PT-0202,62,Male,I,Face/Neck,1,2,0,1,1,14.2,Nodular/Cystic,52,Slow Growth,High,1,Melanoma
+PT-0162,59,Female,I,Legs/Feet,2,2,0,0,2,8.8,Flat,6,Rapid Growth,High,0,Melanoma
+PT-0556,18,Female,II,Arms/Hands,3,1,4,1,0,25.0,Flat,1,Slow Growth,Moderate,0,Fungal Infection
+PT-0402,17,Female,III,Scalp,1,3,1,0,2,2.6,Nodular/Cystic,39,Fluctuating,High,1,Acne Vulgaris
+PT-0477,18,Female,II,Face/Neck,1,2,2,3,0,5.8,Raised/Plaque,13,Fluctuating,Moderate,1,Acne Vulgaris
+PT-0106,35,Female,IV,Legs/Feet,2,4,3,2,1,31.8,Raised/Plaque,4,Stable,Moderate,0,Psoriasis
+PT-0566,15,Male,III,Trunk,0,0,0,0,0,5.0,Raised/Plaque,20,Stable,Moderate,0,Healthy Skin
+PT-0390,64,Female,I,Face/Neck,1,1,1,0,1,9.8,Nodular/Cystic,80,Stable,Moderate,0,Seborrheic Keratosis
+PT-0002,11,Male,II,Arms/Hands,3,4,5,2,1,10.9,Flat,1,Fluctuating,High,1,Eczema
+PT-0597,60,Male,III,Trunk,0,0,0,0,0,1.0,Flat,53,Stable,Moderate,0,Healthy Skin
+PT-0562,30,Female,I,Face/Neck,0,0,0,0,0,1.0,Flat,38,Stable,Moderate,0,Healthy Skin
+PT-0081,46,Male,II,Trunk,2,4,5,0,2,8.8,Raised/Plaque,122,Slow Growth,Moderate,0,Psoriasis
+PT-0206,63,Female,I,Legs/Feet,1,0,2,2,1,13.0,Flat,24,Rapid Growth,Moderate,1,Melanoma
+PT-0035,12,Male,I,Face/Neck,3,2,3,2,0,13.4,Raised/Plaque,15,Stable,High,1,Eczema
+PT-0509,36,Male,III,Arms/Hands,4,3,2,0,1,20.0,Flat,3,Slow Growth,Moderate,0,Fungal Infection
+PT-0428,26,Female,IV,Arms/Hands,1,3,1,1,1,4.2,Raised/Plaque,1,Fluctuating,Low,1,Acne Vulgaris
+PT-0455,22,Male,III,Face/Neck,1,2,2,3,2,3.4,Flat,11,Fluctuating,Moderate,1,Acne Vulgaris
+PT-0367,68,Male,II,Face/Neck,2,1,1,1,0,9.8,Raised/Plaque,16,Slow Growth,Low,0,Seborrheic Keratosis
+PT-0092,45,Female,III,Face/Neck,3,4,5,2,1,21.2,Raised/Plaque,33,Slow Growth,High,1,Psoriasis
+PT-0340,66,Male,I,Face/Neck,2,0,1,0,1,3.3,Raised/Plaque,67,Slow Growth,Moderate,0,Seborrheic Keratosis
+PT-0565,51,Male,I,Flexural Folds,0,0,0,0,0,4.8,Flat,90,Stable,Low,0,Healthy Skin
+PT-0346,60,Female,I,Trunk,1,1,4,0,1,7.6,Raised/Plaque,130,Stable,Moderate,1,Seborrheic Keratosis
+PT-0242,55,Female,III,Face/Neck,2,4,3,1,1,14.4,Raised/Plaque,52,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0014,10,Female,III,Face/Neck,3,3,4,1,3,17.2,Raised/Plaque,13,Fluctuating,Low,1,Eczema
+PT-0316,73,Male,II,Legs/Feet,1,3,0,0,1,10.1,Raised/Plaque,18,Rapid Growth,Low,0,Basal Cell Carcinoma
+PT-0388,73,Male,II,Trunk,1,1,1,0,0,2.5,Raised/Plaque,49,Stable,Low,0,Seborrheic Keratosis
+PT-0274,55,Female,I,Scalp,0,1,1,0,3,6.4,Raised/Plaque,59,Rapid Growth,Moderate,1,Basal Cell Carcinoma
+PT-0167,54,Female,II,Face/Neck,0,3,2,1,1,9.5,Flat,2,Slow Growth,High,0,Melanoma
+PT-0635,34,Male,IV,Legs/Feet,0,0,0,0,0,4.6,Raised/Plaque,21,Stable,High,1,Healthy Skin
+PT-0485,41,Female,I,Trunk,2,3,3,3,0,11.1,Flat,2,Slow Growth,Low,0,Fungal Infection
+PT-0625,15,Female,III,Legs/Feet,0,0,0,0,0,2.1,Flat,24,Stable,Moderate,0,Healthy Skin
+PT-0505,33,Female,IV,Arms/Hands,3,2,3,1,1,16.6,Raised/Plaque,9,Slow Growth,Low,0,Fungal Infection
+PT-0244,68,Female,II,Face/Neck,0,1,1,1,5,14.8,Nodular/Cystic,6,Stable,High,0,Basal Cell Carcinoma
+PT-0567,39,Female,III,Trunk,0,0,0,0,0,4.6,Raised/Plaque,46,Stable,Low,0,Healthy Skin
+PT-0563,44,Female,II,Arms/Hands,0,0,0,0,0,4.1,Flat,20,Stable,Low,0,Healthy Skin
+PT-0190,34,Male,III,Scalp,0,0,2,1,4,4.0,Raised/Plaque,5,Rapid Growth,High,1,Melanoma
+PT-0476,23,Male,I,Face/Neck,2,4,0,1,1,1.5,Nodular/Cystic,13,Slow Growth,High,0,Acne Vulgaris
+PT-0511,10,Male,IV,Scalp,3,5,3,2,0,4.0,Raised/Plaque,4,Slow Growth,Moderate,0,Fungal Infection
+PT-0059,30,Male,III,Arms/Hands,4,2,4,0,1,20.4,Raised/Plaque,26,Fluctuating,Moderate,1,Eczema
+PT-0475,16,Female,III,Face/Neck,2,3,0,1,0,3.5,Nodular/Cystic,54,Slow Growth,Low,1,Acne Vulgaris
+PT-0561,57,Female,VI,Legs/Feet,0,0,0,0,0,1.0,Flat,193,Stable,High,1,Healthy Skin
+PT-0253,61,Male,II,Face/Neck,0,1,0,0,3,7.3,Raised/Plaque,38,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0022,24,Male,III,Flexural Folds,4,3,2,2,2,11.2,Flat,26,Rapid Growth,Low,1,Eczema
+PT-0314,64,Male,II,Face/Neck,0,2,2,0,1,7.8,Nodular/Cystic,22,Slow Growth,High,0,Basal Cell Carcinoma
+PT-0460,28,Male,IV,Trunk,0,4,0,2,2,8.2,Raised/Plaque,7,Fluctuating,Moderate,0,Acne Vulgaris
+PT-0161,69,Female,II,Trunk,0,1,1,2,1,4.0,Raised/Plaque,2,Slow Growth,High,1,Melanoma
+PT-0277,59,Male,I,Arms/Hands,2,1,1,1,5,5.0,Nodular/Cystic,63,Slow Growth,Moderate,1,Basal Cell Carcinoma
+PT-0192,78,Male,I,Face/Neck,1,0,0,1,2,7.1,Flat,5,Rapid Growth,High,0,Melanoma
+PT-0386,38,Female,I,Trunk,0,1,2,0,0,12.0,Nodular/Cystic,115,Slow Growth,Low,1,Seborrheic Keratosis
+PT-0414,16,Female,IV,Trunk,0,2,0,2,0,2.8,Flat,36,Fluctuating,Moderate,1,Acne Vulgaris
+PT-0492,8,Male,II,Flexural Folds,4,3,3,1,0,19.6,Raised/Plaque,1,Rapid Growth,Low,1,Fungal Infection
+PT-0344,66,Female,V,Trunk,0,1,2,0,0,6.8,Raised/Plaque,28,Stable,Moderate,1,Seborrheic Keratosis
+PT-0309,64,Male,I,Legs/Feet,1,1,0,1,4,10.3,Flat,17,Slow Growth,Moderate,1,Basal Cell Carcinoma
+PT-0131,52,Female,III,Trunk,3,4,4,1,2,4.4,Raised/Plaque,27,Slow Growth,High,0,Psoriasis
+PT-0100,38,Female,IV,Trunk,5,4,4,2,0,18.5,Raised/Plaque,16,Stable,Low,0,Psoriasis
+PT-0373,79,Female,III,Trunk,1,2,3,0,0,3.9,Raised/Plaque,181,Stable,High,1,Seborrheic Keratosis
+PT-0088,50,Female,I,Arms/Hands,1,3,4,4,0,15.6,Raised/Plaque,9,Stable,Moderate,1,Psoriasis
+PT-0459,17,Female,IV,Face/Neck,0,2,1,1,1,4.3,Nodular/Cystic,4,Rapid Growth,Low,0,Acne Vulgaris
+PT-0331,64,Male,I,Trunk,1,1,3,1,1,10.6,Nodular/Cystic,145,Stable,Low,0,Seborrheic Keratosis
+PT-0215,61,Male,I,Legs/Feet,1,2,1,0,1,7.4,Flat,19,Rapid Growth,High,0,Melanoma
+PT-0467,11,Female,V,Face/Neck,1,3,0,1,2,6.1,Raised/Plaque,10,Stable,Low,0,Acne Vulgaris
+PT-0122,35,Male,III,Arms/Hands,2,3,3,2,1,34.1,Raised/Plaque,36,Slow Growth,Low,1,Psoriasis
+PT-0615,28,Female,II,Trunk,0,0,0,0,0,3.4,Flat,20,Stable,Low,0,Healthy Skin
+PT-0021,45,Male,I,Arms/Hands,5,3,5,2,2,12.8,Raised/Plaque,45,Fluctuating,Low,1,Eczema
+PT-0072,37,Female,I,Arms/Hands,4,4,1,3,2,12.8,Flat,3,Stable,Moderate,0,Eczema
+PT-0107,29,Male,II,Arms/Hands,4,4,5,1,1,20.3,Raised/Plaque,10,Stable,Low,1,Psoriasis
+PT-0271,83,Male,II,Legs/Feet,1,3,1,0,3,6.3,Nodular/Cystic,24,Slow Growth,Moderate,1,Basal Cell Carcinoma
+PT-0436,22,Female,III,Face/Neck,1,4,0,2,0,4.7,Flat,10,Rapid Growth,Moderate,0,Acne Vulgaris
+PT-0103,49,Male,II,Trunk,5,4,5,1,0,27.7,Raised/Plaque,51,Stable,Moderate,1,Psoriasis
